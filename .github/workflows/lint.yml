@@ -1,0 +1,66 @@
+name: Code Quality
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'src/**'
+      - 'next.config.js'
+      - 'package.json'
+      - 'eslint.config.js'
+      - 'tsconfig.json'
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'next.config.js'
+      - 'package.json'
+      - 'eslint.config.js'
+      - 'tsconfig.json'
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  lint:
+    name: ESLint & Type Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        run: npx eslint src/ --format stylish --max-warnings 0
+
+      - name: Run TypeScript check
+        run: npx tsc --noEmit
+
+  audit:
+    name: Security Audit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=moderate
+        continue-on-error: true

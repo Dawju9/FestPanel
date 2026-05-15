@@ -1,0 +1,37 @@
+{
+  "name": "festpanel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FestPanel - Profesjonalny Montaż Paneli Podłogowych",
+  "license": "MIT",
+  "author": "whitekali",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src/ --fix",
+    "lint:check": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "watch": "node scripts/watch-lint.js"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "chokidar": "^4.0.3",
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
