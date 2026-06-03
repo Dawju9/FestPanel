@@ -45,15 +45,15 @@ export default async function handler(req, res) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           embeds: [{
-            title: "🔔 Nowe zapytanie ofertowe",
+            title: '🔔 Nowe zapytanie ofertowe',
             color: 13893632, // Red color
             fields: [
-              { name: "👤 Imię", value: name, inline: true },
-              { name: "📞 Telefon", value: phone, inline: true },
-              { name: "📧 Email", value: email, inline: false },
-              { name: "📐 Metraż", value: `${metrage || 'Brak'} m2`, inline: true },
-              { name: "🛠️ Usługi", value: `${prepServices ? '✅ Przygotowanie\n' : ''}${baseboards ? '✅ Listwy' : ''}` || 'Brak', inline: true },
-              { name: "📝 Wiadomość", value: message || 'Brak treści', inline: false }
+              { name: '👤 Imię', value: name, inline: true },
+              { name: '📞 Telefon', value: phone, inline: true },
+              { name: '📧 Email', value: email, inline: false },
+              { name: '📐 Metraż', value: `${metrage || 'Brak'} m2`, inline: true },
+              { name: '🛠️ Usługi', value: `${prepServices ? '✅ Przygotowanie\n' : ''}${baseboards ? '✅ Listwy' : ''}` || 'Brak', inline: true },
+              { name: '📝 Wiadomość', value: message || 'Brak treści', inline: false }
             ],
             footer: { text: `Data: ${new Date().toLocaleString()}` }
           }]

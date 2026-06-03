@@ -7,7 +7,7 @@ export default function ContactPopup({ isOpen, onClose }) {
   });
   const [status, setStatus] = useState('');
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   const handleSubmit = async (e) => {
     e.preventDefault();

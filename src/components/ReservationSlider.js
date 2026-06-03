@@ -4,7 +4,7 @@ import { X, Calendar } from 'lucide-react';
 export default function ReservationSlider({ isOpen, onClose }) {
   const [data, setData] = useState({ name: '', date: '', meters: '', floorType: '' });
 
-  if (!isOpen) return null;
+  if (!isOpen) {return null;}
 
   const handleSubmit = async (e) => {
     e.preventDefault();

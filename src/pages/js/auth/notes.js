@@ -53,7 +53,7 @@ export default function Notes() {
               <div key={n.id} style={{ background: '#fff', padding: '16px', borderRadius: '8px', border: '1px solid #ddd' }}>
                 <h3>{n.title}</h3>
                 <p>{n.content}</p>
-                <button onClick={() => {setEditingId(n.id); setForm(n)}}>Edit</button>
+                <button onClick={() => {setEditingId(n.id); setForm(n);}}>Edit</button>
                 <button onClick={() => deleteNote(n.id)}>Delete</button>
               </div>
             ))}

@@ -6,8 +6,12 @@ export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState('default');
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'default';
-    setTheme(savedTheme);
+    const savedTheme = localStorage.getItem('theme');
+    const validTheme = savedTheme === 'modern_dark' ? 'modern_dark' : 'default';
+    setTheme(validTheme);
+    if (savedTheme !== validTheme) {
+      localStorage.setItem('theme', validTheme);
+    }
   }, []);
 
   useEffect(() => {

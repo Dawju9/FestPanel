@@ -303,7 +303,7 @@ export default function FestPanel() {
       <ReservationSlider isOpen={isResOpen} onClose={() => setIsResOpen(false)} />
       <ThemeSwitcher />
       
-      <button onClick={() => setIsResOpen(true)} style={{ position: 'fixed', bottom: '20px', right: '20px', background: '#D32F2F', color: '#fff', padding: '16px', borderRadius: '50%', border: 'none', cursor: 'pointer', zIndex: 1000 }}>
+      <button onClick={() => setIsResOpen(true)} style={{ position: 'fixed', bottom: '20px', right: '20px', background: 'var(--color-primary)', color: 'var(--color-white)', padding: '16px', borderRadius: '50%', border: 'none', cursor: 'pointer', zIndex: 1000 }}>
         <Calendar size={24} />
       </button>
     </>

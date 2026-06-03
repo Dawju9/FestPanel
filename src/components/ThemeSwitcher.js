@@ -12,7 +12,7 @@ export default function ThemeSwitcher() {
         bottom: '80px',
         right: '20px',
         background: 'var(--color-primary)',
-        color: 'white',
+        color: 'var(--color-white)',
         padding: '16px',
         borderRadius: '50%',
         border: 'none',
