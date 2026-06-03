@@ -36,6 +36,10 @@ export default function AdminLayout({ children }) {
 
   const navItems = [
     { path: '/js/auth/dashboard', label: 'Dashboard', icon: '📊' },
+    { path: '/js/auth/insights', label: 'Insights', icon: '🔍' },
+    { path: '/js/auth/notes', label: 'Notes', icon: '📝' },
+    { path: '/js/auth/reservations', label: 'Reservations', icon: '📅' },
+    { path: '/js/auth/logs/viewer', label: 'Log Viewer', icon: '📜' },
     { path: '/js/auth/crawler', label: 'Crawler', icon: '🕷️' },
     { path: '/js/auth/results', label: 'Results', icon: '📋' },
     { path: '/js/auth/todo', label: 'To Do', icon: '✅' },

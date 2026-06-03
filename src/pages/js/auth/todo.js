@@ -1,12 +1,12 @@
 import { requireAuth } from '../../../lib/auth';
 import AdminLayout from '../../../components/AdminLayout';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export async function getServerSideProps(context) {
   return requireAuth(context);
 }
 
-const sampleTasks = [
+const defaultTasks = [
   { id: 1, title: 'Review new crawler results', priority: 'high', done: false },
   { id: 2, title: 'Update search keywords list', priority: 'medium', done: false },
   { id: 3, title: 'Check Discord webhook is working', priority: 'high', done: false },
@@ -15,10 +15,27 @@ const sampleTasks = [
 ];
 
 export default function Todo() {
-  const [tasks, setTasks] = useState(sampleTasks);
+  const [tasks, setTasks] = useState([]);
   const [newTitle, setNewTitle] = useState('');
   const [newPriority, setNewPriority] = useState('medium');
   const [filter, setFilter] = useState('all');
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    const saved = localStorage.getItem('festpanel-tasks');
+    if (saved) {
+      setTasks(JSON.parse(saved));
+    } else {
+      setTasks(defaultTasks);
+    }
+    setIsLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    if (isLoaded) {
+      localStorage.setItem('festpanel-tasks', JSON.stringify(tasks));
+    }
+  }, [tasks, isLoaded]);
 
   const addTask = (e) => {
     e.preventDefault();
@@ -157,40 +174,46 @@ export default function Todo() {
               gap: '16px',
               padding: '14px 24px',
               borderBottom: '1px solid #f0f0f0',
-              opacity: t.done ? 0.5 : 1,
+              background: t.done ? '#fafafa' : '#ffffff',
+              transition: 'background 0.2s',
             }}>
               <input
                 type="checkbox"
                 checked={t.done}
                 onChange={() => toggleTask(t.id)}
-                style={{ width: '18px', height: '18px', cursor: 'pointer' }}
+                style={{ width: '20px', height: '20px', cursor: 'pointer', accentColor: '#D32F2F' }}
               />
               <span style={{
                 flex: 1,
-                fontSize: '14px',
-                color: t.done ? '#999' : '#333',
+                fontSize: '15px',
+                color: t.done ? '#777' : '#1a1a1a',
+                fontWeight: t.done ? '400' : '500',
                 textDecoration: t.done ? 'line-through' : 'none',
               }}>
                 {t.title}
               </span>
               <span style={{
-                padding: '3px 10px',
-                borderRadius: '20px',
+                padding: '4px 12px',
+                borderRadius: '6px',
                 fontSize: '11px',
-                fontWeight: 600,
+                fontWeight: 700,
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px',
                 background: `${priorityColors[t.priority]}15`,
                 color: priorityColors[t.priority],
+                border: `1px solid ${priorityColors[t.priority]}30`,
               }}>
                 {t.priority}
               </span>
               <button onClick={() => deleteTask(t.id)} style={{
-                padding: '4px 12px',
-                border: '1px solid #e0e0e0',
+                padding: '6px 12px',
+                border: '1px solid #ffcccc',
                 borderRadius: '6px',
-                background: 'transparent',
-                color: '#999',
+                background: '#fff5f5',
+                color: '#D32F2F',
                 fontSize: '12px',
                 cursor: 'pointer',
+                fontWeight: 600,
               }}>
                 Delete
               </button>

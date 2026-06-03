@@ -1,12 +1,31 @@
 import { requireAuth } from '../../../lib/auth';
 import AdminLayout from '../../../components/AdminLayout';
 import { useSession } from 'next-auth/react';
+import fs from 'fs/promises';
+import path from 'path';
 
 export async function getServerSideProps(context) {
-  return requireAuth(context);
+  const auth = await requireAuth(context);
+
+  // Read submissions
+  let submissions = [];
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'submissions.json');
+    const data = await fs.readFile(filePath, 'utf8');
+    submissions = JSON.parse(data).reverse(); // Newest first
+  } catch (e) {
+    // No submissions yet
+  }
+
+  return {
+    props: {
+      ...auth.props,
+      submissions,
+    },
+  };
 }
 
-export default function Dashboard() {
+export default function Dashboard({ submissions }) {
   const { data: session } = useSession();
   const stats = [
     { label: 'Total Crawls', value: '1,247', icon: '🕷️', color: '#D32F2F' },
@@ -65,91 +84,36 @@ export default function Dashboard() {
           </div>
 
           <div style={{
-            display: 'grid',
-            gridTemplateColumns: '2fr 1fr',
-            gap: '24px',
+            background: '#ffffff',
+            borderRadius: '12px',
+            padding: '24px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+            marginBottom: '24px',
           }}>
-            <div style={{
-              background: '#ffffff',
-              borderRadius: '12px',
-              padding: '24px',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-            }}>
-              <h3 style={{ fontSize: '16px', fontWeight: 700, color: '#1a1a1a', marginBottom: '16px' }}>
-                Recent Activity
-              </h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                {[{ time: '2 min ago', msg: 'Crawler completed search cycle' },
-                  { time: '15 min ago', msg: 'New result: Panele winylowe - Warszawa' },
-                  { time: '1 hour ago', msg: 'Keyword "zlecę położenie paneli" processed' },
-                  { time: '3 hours ago', msg: 'Crawler started successfully' },
-                  { time: '5 hours ago', msg: '3 new results saved to Excel' },
-                ].map((item, i) => (
-                  <div key={i} style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                    padding: '10px 0',
-                    borderBottom: i < 4 ? '1px solid #f0f0f0' : 'none',
-                  }}>
-                    <span style={{ fontSize: '14px', color: '#333' }}>{item.msg}</span>
-                    <span style={{ fontSize: '12px', color: '#999' }}>{item.time}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div style={{
-              background: '#ffffff',
-              borderRadius: '12px',
-              padding: '24px',
-              boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-            }}>
-              <h3 style={{ fontSize: '16px', fontWeight: 700, color: '#1a1a1a', marginBottom: '16px' }}>
-                Quick Actions
-              </h3>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                <a href="/js/auth/crawler" style={{
-                  display: 'block',
-                  padding: '12px 16px',
-                  background: '#D32F2F',
-                  color: '#ffffff',
-                  borderRadius: '8px',
-                  textDecoration: 'none',
-                  fontSize: '14px',
-                  fontWeight: 600,
-                  textAlign: 'center',
-                }}>
-                  Run Crawler Now
-                </a>
-                <a href="/js/auth/results" style={{
-                  display: 'block',
-                  padding: '12px 16px',
-                  background: '#f5f5f5',
-                  color: '#333',
-                  borderRadius: '8px',
-                  textDecoration: 'none',
-                  fontSize: '14px',
-                  fontWeight: 600,
-                  textAlign: 'center',
-                }}>
-                  View Latest Results
-                </a>
-                <a href="/js/auth/todo" style={{
-                  display: 'block',
-                  padding: '12px 16px',
-                  background: '#f5f5f5',
-                  color: '#333',
-                  borderRadius: '8px',
-                  textDecoration: 'none',
-                  fontSize: '14px',
-                  fontWeight: 600,
-                  textAlign: 'center',
-                }}>
-                  Manage Tasks
-                </a>
-              </div>
-            </div>
+            <h3 style={{ fontSize: '16px', fontWeight: 700, color: '#1a1a1a', marginBottom: '16px' }}>
+              Form Submissions
+            </h3>
+            {submissions.length === 0 ? (
+                <p style={{ color: '#999' }}>No submissions yet.</p>
+            ) : (
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                    {submissions.map((sub, i) => (
+                        <div key={i} style={{
+                            padding: '12px',
+                            border: '1px solid #eee',
+                            borderRadius: '8px',
+                        }}>
+                            <div style={{ fontWeight: 600 }}>{sub.name} ({sub.email})</div>
+                            <div style={{ fontSize: '13px', color: '#666' }}>Tel: {sub.phone} | Metraż: {sub.metrage}m2</div>
+                            <div style={{ fontSize: '13px', color: '#666' }}>
+                              Usługi: {sub.prepServices ? 'Przygotowanie, ' : ''}{sub.baseboards ? 'Listwy' : ''}
+                            </div>
+                            <div style={{ marginTop: '8px' }}>{sub.message}</div>
+                            <div style={{ fontSize: '11px', color: '#aaa', marginTop: '8px' }}>{new Date(sub.createdAt).toLocaleString()}</div>
+                        </div>
+                    ))}
+                </div>
+            )}
           </div>
         </div>
       </AdminLayout>

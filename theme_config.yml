@@ -1,0 +1,15 @@
+themes:
+  default:
+    primary: "#D32F2F"
+    primary_dark: "#B71C1C"
+    primary_light: "#FF5252"
+    bg_color: "#ffffff"
+    text_color: "#333333"
+    hero_bg: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)"
+  modern_dark:
+    primary: "#00BCD4"
+    primary_dark: "#00838F"
+    primary_light: "#80DEEA"
+    bg_color: "#121212"
+    text_color: "#e0e0e0"
+    hero_bg: "linear-gradient(135deg, #0f2027 0%, #203a43 100%)"

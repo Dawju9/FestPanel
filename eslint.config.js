@@ -2,6 +2,7 @@ import js from '@eslint/js'
 import reactPlugin from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
+import nextPlugin from '@next/eslint-plugin-next'
 import globals from 'globals'
 
 export default [
@@ -12,6 +13,7 @@ export default [
       react: reactPlugin,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      '@next/next': nextPlugin,
     },
     languageOptions: {
       ecmaVersion: 2022,
@@ -29,6 +31,8 @@ export default [
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      ...nextPlugin.configs.recommended.rules,
+      ...nextPlugin.configs['core-web-vitals'].rules,
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
@@ -53,6 +57,6 @@ export default [
     },
   },
   {
-    ignores: ['node_modules/', '.next/', 'dist/', 'build/', 'scripts/'],
+    ignores: ['node_modules/', '.next/', 'dist/', 'build/', 'coverage/', '*.min.js', 'public/', 'scripts/'],
   },
 ]

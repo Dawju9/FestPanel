@@ -1,0 +1,22 @@
+# Hostinger .htaccess for Next.js Standalone
+# Routes traffic to the Node.js application running on port 3099
+
+RewriteEngine On
+
+# 1. Force HTTPS
+RewriteCond % {HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Proxy requests to the Node.js application
+# Note: Hostinger Node.js selector usually handles this, 
+# but if you need manual proxying, use the lines below:
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge [NC]
+RewriteRule ^(.*)$ http://127.0.0.1:3099/$1 [P,L]
+
+# 3. Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

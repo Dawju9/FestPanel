@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import Head from 'next/head';
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '../../../lib/auth';
-import { useEffect } from 'react';
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -36,15 +36,25 @@ export default function Login() {
     setLoading(true);
     setError('');
 
+    // Verify reCAPTCHA token
+    const token = window.grecaptcha.getResponse();
+    if (!token) {
+      setError('Proszę wypełnić reCAPTCHA.');
+      setLoading(false);
+      return;
+    }
+
     const result = await signIn('credentials', {
       username,
       password,
+      recaptchaToken: token, 
       redirect: false,
     });
 
     if (result?.error) {
-      setError('Invalid username or password');
+      setError('Invalid username, password, or reCAPTCHA.');
       setLoading(false);
+      window.grecaptcha.reset();
     } else {
       router.push(callbackUrl || '/js/auth/dashboard');
     }
@@ -52,6 +62,9 @@ export default function Login() {
 
   return (
     <>
+      <Head>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+      </Head>
       <div className="login-page">
         <div className="login-container">
           <div className="login-header">
@@ -90,6 +103,8 @@ export default function Login() {
                 autoComplete="current-password"
               />
             </div>
+
+            <div className="g-recaptcha" data-sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}></div>
 
             <button type="submit" className="login-btn" disabled={loading}>
               {loading ? 'Signing in...' : 'Sign In'}
