@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 import { SessionProvider } from 'next-auth/react';
 import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from '../context/ThemeContext';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -20,6 +21,7 @@ export default function App({ Component, pageProps: { session, ...pageProps }, r
           </motion.div>
         </AnimatePresence>
         <Analytics />
+        <SpeedInsights />
       </ThemeProvider>
     </SessionProvider>
   );
