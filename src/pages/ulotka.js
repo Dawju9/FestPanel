@@ -78,8 +78,6 @@ export default function Ulotka() {
           transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
           cursor: pointer;
           box-shadow: 0 20px 50px rgba(0,0,0,0.5);
-          border-radius: 12px;
-          overflow: hidden;
         }
 
         .flyer-card.is-flipped {
@@ -97,6 +95,7 @@ export default function Ulotka() {
           justify-content: center;
           background: white;
           border-radius: 12px;
+          overflow: hidden;
         }
 
         .flyer-face img {
@@ -105,7 +104,7 @@ export default function Ulotka() {
           object-fit: contain;
         }
 
-        .flyer-back {
+.flyer-back {
           transform: rotateY(180deg);
         }
 

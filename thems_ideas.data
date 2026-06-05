@@ -1,0 +1,137 @@
+# ============================================================
+# FestPanel — Theme Ideas
+# ============================================================
+# Each theme is defined by:
+#   id              - unique key used in localStorage + data-theme
+#   name            - human-readable Polish label
+#   description     - short tagline shown in theme chooser
+#   primary         - main brand color (buttons, accents)
+#   primary_dark    - hover/pressed brand color
+#   primary_light   - soft tint used for badges, highlights
+#   bg              - main page background
+#   surface         - card / tile background (services, forms)
+#   surface_alt     - alternating section background
+#   text            - main body text color (high contrast on bg)
+#   text_muted      - secondary text (descs, labels)
+#   on_dark         - text color for elements placed on dark sections
+#   on_dark_muted   - muted text for dark sections (copyright, etc.)
+#   dark_section    - background of dark sections (features, footer)
+#   hero_bg         - hero section gradient
+#   border          - subtle borders/dividers
+#   tile_text       - text color used INSIDE tiles/cards
+#   tile_desc       - description text color INSIDE tiles
+# ============================================================
+
+- id: default
+  name: "Klasyczny Czerwony"
+  description: "Domyslny motyw FestPanel — industrialna czerwien"
+  primary: "#D32F2F"
+  primary_dark: "#B71C1C"
+  primary_light: "#FF5252"
+  bg: "#ffffff"
+  surface: "#ffffff"
+  surface_alt: "#f5f5f5"
+  text: "#333333"
+  text_muted: "#666666"
+  on_dark: "#ffffff"
+  on_dark_muted: "rgba(255,255,255,0.6)"
+  dark_section: "#1a1a1a"
+  hero_bg: "linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%)"
+  border: "#e0e0e0"
+  tile_text: "#333333"
+  tile_desc: "#666666"
+
+- id: modern_dark
+  name: "Nowoczesny Ciemny"
+  description: "Stonowany cyjan na glebokiej czerni — dla nocnych marek"
+  primary: "#00BCD4"
+  primary_dark: "#00838F"
+  primary_light: "#80DEEA"
+  bg: "#121212"
+  surface: "#1e1e1e"
+  surface_alt: "#1a1a1a"
+  text: "#e0e0e0"
+  text_muted: "#a0a0a0"
+  on_dark: "#ffffff"
+  on_dark_muted: "rgba(255,255,255,0.6)"
+  dark_section: "#0a0a0a"
+  hero_bg: "linear-gradient(135deg, #0f2027 0%, #203a43 100%)"
+  border: "#333333"
+  tile_text: "#f5f5f5"
+  tile_desc: "#bdbdbd"
+
+- id: forest_green
+  name: "Lesna Zielien"
+  description: "Naturalna zielen premium — panele drewniane w centrum uwagi"
+  primary: "#2E7D32"
+  primary_dark: "#1B5E20"
+  primary_light: "#66BB6A"
+  bg: "#FAF8F5"
+  surface: "#FFFFFF"
+  surface_alt: "#F0EDE7"
+  text: "#1B2E1F"
+  text_muted: "#4A5C50"
+  on_dark: "#FFFFFF"
+  on_dark_muted: "rgba(255,255,255,0.78)"
+  dark_section: "#1B2E1F"
+  hero_bg: "linear-gradient(135deg, #1B2E1F 0%, #2E4A33 100%)"
+  border: "#D9D2C5"
+  tile_text: "#1B2E1F"
+  tile_desc: "#4A5C50"
+
+- id: sunset_orange
+  name: "Zachod Slonca"
+  description: "Cieply pomarancz — przyjazny, domowy klimat"
+  primary: "#EF6C00"
+  primary_dark: "#BF360C"
+  primary_light: "#FFA040"
+  bg: "#FFFAF5"
+  surface: "#FFFFFF"
+  surface_alt: "#FFF1E5"
+  text: "#3E2A1A"
+  text_muted: "#7A5A45"
+  on_dark: "#FFFFFF"
+  on_dark_muted: "rgba(255,255,255,0.8)"
+  dark_section: "#2D1B10"
+  hero_bg: "linear-gradient(135deg, #2D1B10 0%, #5A2A14 100%)"
+  border: "#E8D4BE"
+  tile_text: "#3E2A1A"
+  tile_desc: "#7A5A45"
+
+- id: ocean_blue
+  name: "Glebia Oceanu"
+  description: "Gleboki blekit — zaufanie i profesjonalizm"
+  primary: "#1565C0"
+  primary_dark: "#0D47A1"
+  primary_light: "#42A5F5"
+  bg: "#F2F7FB"
+  surface: "#FFFFFF"
+  surface_alt: "#E5EEF6"
+  text: "#0F2237"
+  text_muted: "#4A5C75"
+  on_dark: "#FFFFFF"
+  on_dark_muted: "rgba(255,255,255,0.8)"
+  dark_section: "#0F2237"
+  hero_bg: "linear-gradient(135deg, #0F2237 0%, #1B3A5C 100%)"
+  border: "#CDD9E5"
+  tile_text: "#0F2237"
+  tile_desc: "#4A5C75"
+
+- id: royal_purple
+  name: "Krolewska Purpura"
+  description: "Elegancki fiolet — wyrozniaj sie z tlumu"
+  primary: "#6A1B9A"
+  primary_dark: "#4A148C"
+  primary_light: "#AB47BC"
+  bg: "#FAF6FB"
+  surface: "#FFFFFF"
+  surface_alt: "#F0E6F5"
+  text: "#1F0F2A"
+  text_muted: "#5C4A6E"
+  on_dark: "#FFFFFF"
+  on_dark_muted: "rgba(255,255,255,0.8)"
+  dark_section: "#1F0F2A"
+  hero_bg: "linear-gradient(135deg, #1F0F2A 0%, #3D1B5C 100%)"
+  border: "#DCC8E5"
+  tile_text: "#1F0F2A"
+  tile_desc: "#5C4A6E"

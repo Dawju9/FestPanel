@@ -6,7 +6,10 @@ This repo is a hybrid Next.js (Node.js) + Python monorepo with a secure admin da
 - **Main app:** Next.js in `/src/pages` with API at `/src/pages/api/health.js`. Uses React 19, Next.js 15+.
 - **Crawler:** Python scripts in `/crawler`. Not integrated with Node.js app.
 - **Admin Dashboard:** All admin/staff pages at `/js/auth/*`, protected by NextAuth authentication.
-- **No About.md:** For crawler, see `/crawler/About.mc` for authoritative info.
+- **Data storage:** Flat JSON files in `/data/` (submissions.json, reservations.json, notes.json) — **no database**.
+- **Mock data:** Pages `results`, `keywords`, `logs`, `reports` use hardcoded sample data — **no live integration** with the Python crawler.
+- **CSS theme system:** 6 full themes defined in `theme_config.yml` / `thems_ideas.data`, implemented via `html[data-theme="..."]` selectors in `globals.css`. Selection persisted in `localStorage` via `ThemeContext` + `ThemeSwitcher` component.
+- **For crawler:** see `/crawler/README.md` for authoritative info.
 
 ## Setup & Environment (Node.js)
 - **Requires Node.js >=18.**
@@ -54,21 +57,26 @@ This repo is a hybrid Next.js (Node.js) + Python monorepo with a secure admin da
 - **Custom linting stricter than out-of-box Next.js:** indirect requirement, auto-fix can rewrite files/styles.
 - New/changed source files not actively watched by default unless running the custom watcher.
 - Key state for crawler persists in local files: `seen_links.json` (visited URLs) and Excel output.
-- Crawler behavior (timeouts, API use, Discord, Excel saving) described in `/crawler/About.mc` only.
+- Crawler behavior (timeouts, API use, Discord, Excel saving) described in `/crawler/README.md` only.
 - Admin auth depends on `.env` with `ADMIN_HASH` (bcrypt) and `NEXTAUTH_SECRET` — run `npm run setup:admin` to configure.
 
 ## Common Scripts
 - Dev: `npm run dev`
 - Build: `npm run build`
 - Admin setup: `npm run setup:admin`
+- Welcome setup: `npm run setup:welcome`
 - Lint: `npm run lint` (manual fix) or `scripts/watch-lint.js` (auto-fix + typecheck)
 - Typecheck: `npm run typecheck`
-- Python crawler: see `/crawler/About.mc`
+- Python crawler: see `/crawler/README.md`
+- Process manager: `bash manage.sh` (build/clean/start/stop/restart/status/deploy)
 
 ## Agent Recommendations
 - Cross-check install/env steps for both JS and Python parts before running automation.
 - Always run the custom `watch-lint.js` for stricter lint/type safety during dev, if possible.
 - For crawler, set up `.env` and needed Python deps before running.
-- Reference `/crawler/About.mc` for latest crawler usage and caveats.
+- Reference `/crawler/README.md` for latest crawler usage and caveats.
 - State (like seen URLs and output Excel) is saved in repo/crawler dir and is required for expected operation.
 - Admin pages use NextAuth — default user is `whitekali`. Run `npm run setup:admin` to set password hash.
+- Dashboard pages `results`, `keywords`, `logs`, `reports` contain **mock data only** — they are not connected to the Python crawler's output.
+- The `data/` directory stores all persistent state as JSON files — no database is used.
+- `manage.sh` provides a process manager interface (build, clean, start, stop, restart, status, deploy).

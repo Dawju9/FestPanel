@@ -1,0 +1,14 @@
+{
+  "job_indicators": [
+    "zlecę", "zlece", "szukam", "potrzebuję", "potrzebuje",
+    "poszukuję", "poszukuje", "dam zlecenie", "zapytanie o",
+    "zlecę usługę", "zlec", "potrzebny"
+  ],
+  "noise_indicators": [
+    "cena", "cennik", "koszt", "ranking", "najlepszych",
+    "opinie", "firma", "wykonawca", "specjalista", "ile kosztuje",
+    "sprzedam", "kupię", "kupie", "oferuję", "oferuje",
+    "wykonam", "producent", "sklep", "promocja", "wynajmę",
+    "wynajme", "kurs", "szkolenie", "poradnik"
+  ]
+}

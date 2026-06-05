@@ -1,7 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X, ArrowRight } from 'lucide-react';
 
 export default function ContactPopup({ isOpen, onClose }) {
+  useEffect(() => {
+    if (isOpen && !window.grecaptcha) {
+      const script = document.createElement('script');
+      script.src = 'https://www.google.com/recaptcha/api.js';
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+  }, [isOpen]);
   const [formData, setFormData] = useState({
     name: '', phone: '', email: '', message: '', metrage: '', prepServices: false, baseboards: false
   });
@@ -26,8 +35,12 @@ export default function ContactPopup({ isOpen, onClose }) {
         setTimeout(onClose, 2000);
       } else {
         setStatus('Wystąpił błąd.');
+        window.grecaptcha.reset();
       }
-    } catch { setStatus('Wystąpił błąd.'); }
+    } catch { 
+      setStatus('Wystąpił błąd.');
+      window.grecaptcha.reset();
+    }
   };
 
   return (

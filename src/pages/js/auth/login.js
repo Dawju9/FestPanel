@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { getServerSession } from 'next-auth';
@@ -24,6 +25,7 @@ export default function Login() {
   const { data: session } = useSession();
   const router = useRouter();
   const { callbackUrl } = router.query;
+  const recaptchaRef = useRef(null);
 
   useEffect(() => {
     if (session) {
@@ -31,13 +33,39 @@ export default function Login() {
     }
   }, [session, callbackUrl, router]);
 
+  useEffect(() => {
+    const renderWidget = () => {
+      if (recaptchaRef.current && window.grecaptcha?.render) {
+        try {
+          window.grecaptcha.render(recaptchaRef.current, {
+            sitekey: process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY,
+          });
+          return true;
+        } catch {
+          return false;
+        }
+      }
+      return false;
+    };
+
+    if (!renderWidget()) {
+      window.recaptchaOnload = renderWidget;
+    }
+  }, []);
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError('');
 
-    // Verify reCAPTCHA token
-    const token = window.grecaptcha.getResponse();
+    const grecaptcha = window.grecaptcha;
+    if (!grecaptcha) {
+      setError('reCAPTCHA nie jest jeszcze gotowe. Odśwież stronę.');
+      setLoading(false);
+      return;
+    }
+
+    const token = grecaptcha.getResponse();
     if (!token) {
       setError('Proszę wypełnić reCAPTCHA.');
       setLoading(false);
@@ -47,14 +75,14 @@ export default function Login() {
     const result = await signIn('credentials', {
       username,
       password,
-      recaptchaToken: token, 
+      recaptchaToken: token,
       redirect: false,
     });
 
     if (result?.error) {
       setError('Invalid username, password, or reCAPTCHA.');
       setLoading(false);
-      window.grecaptcha.reset();
+      grecaptcha.reset();
     } else {
       router.push(callbackUrl || '/js/auth/dashboard');
     }
@@ -63,7 +91,11 @@ export default function Login() {
   return (
     <>
       <Head>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script
+          src="https://www.google.com/recaptcha/api.js?onload=recaptchaOnload&render=explicit"
+          async
+          defer
+        ></script>
       </Head>
       <div className="login-page">
         <div className="login-container">
@@ -104,7 +136,7 @@ export default function Login() {
               />
             </div>
 
-            <div className="g-recaptcha" data-sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}></div>
+            <div ref={recaptchaRef}></div>
 
             <button type="submit" className="login-btn" disabled={loading}>
               {loading ? 'Signing in...' : 'Sign In'}
@@ -112,7 +144,7 @@ export default function Login() {
           </form>
 
           <div className="login-footer">
-            <a href="/" className="back-link">&larr; Back to FestPanel</a>
+            <Link href="/" className="back-link">&larr; Back to FestPanel</Link>
           </div>
         </div>
 

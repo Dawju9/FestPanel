@@ -1,0 +1,5 @@
+# FestPanel Welcome Configuration
+welcome:
+  message: "FestPanel - Profesjonalny Montaż Paneli Podłogowych"
+  show_dashboard_tour: true
+last_updated: "2026-06-05"

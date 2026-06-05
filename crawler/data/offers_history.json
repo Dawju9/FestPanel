@@ -1,0 +1,1646 @@
+{
+  "100001": {
+    "id": "100001",
+    "title": "Test offer fresh",
+    "date": "2026-06-05",
+    "city": "Warszawa",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "test",
+    "url": "",
+    "first_seen": "2026-06-05T23:03:59.200290",
+    "last_seen": "2026-06-05T23:03:59.200290",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "100002": {
+    "id": "100002",
+    "title": "Test offer outdated",
+    "date": "2026-05-26",
+    "city": "Kraków",
+    "metrage": "10m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "test",
+    "url": "",
+    "first_seen": "2026-06-05T23:03:59.200290",
+    "last_seen": "2026-06-05T23:03:59.200290",
+    "age_group": "outdated",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      },
+      {
+        "date": "2026-06-05",
+        "group": "outdated"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "100003": {
+    "id": "100003",
+    "title": "Test offer old",
+    "date": "2026-05-16",
+    "city": "Gdańsk",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "test",
+    "url": "",
+    "first_seen": "2026-06-05T23:03:59.200290",
+    "last_seen": "2026-06-05T23:03:59.200290",
+    "age_group": "old",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      },
+      {
+        "date": "2026-06-05",
+        "group": "old"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "100004": {
+    "id": "100004",
+    "title": "Test offer expired",
+    "date": "2026-04-06",
+    "city": "Poznań",
+    "metrage": "100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "test",
+    "url": "",
+    "first_seen": "2026-06-05T23:03:59.200290",
+    "last_seen": "2026-06-05T23:03:59.200290",
+    "age_group": "expired",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      },
+      {
+        "date": "2026-06-05",
+        "group": "expired"
+      },
+      {
+        "date": "2026-06-05",
+        "group": "expired"
+      }
+    ],
+    "notified": true,
+    "active": false
+  },
+  "17665788": {
+    "id": "17665788",
+    "title": "Dam zlecenie na montaż paneli laminowanych, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Poznań",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.120657+00:00",
+    "last_seen": "2026-06-05T23:16:31.745737+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665634": {
+    "id": "17665634",
+    "title": "Zlecę układanie paneli, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Kraśnik",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.121463+00:00",
+    "last_seen": "2026-06-05T23:16:31.748624+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665618": {
+    "id": "17665618",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 26-50m²,Łobez",
+    "date": "2026-06-05",
+    "city": "Łobez",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.122365+00:00",
+    "last_seen": "2026-06-05T23:16:31.750143+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665582": {
+    "id": "17665582",
+    "title": "Zlecenie na ułożenie paneli laminowanych, 26-50m²,Inowrocław",
+    "date": "2026-06-05",
+    "city": "Wrocław",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.122962+00:00",
+    "last_seen": "2026-06-05T23:16:31.751634+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665456": {
+    "id": "17665456",
+    "title": "Zapytanie o układanie paneli PCV, 10m²",
+    "date": "2026-06-05",
+    "city": "Toruń",
+    "metrage": "10m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.124195+00:00",
+    "last_seen": "2026-06-05T23:16:31.754046+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665319": {
+    "id": "17665319",
+    "title": "Dam zlecenie na montaż paneli PCV, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Wolica",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.125016+00:00",
+    "last_seen": "2026-06-05T23:16:31.755585+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665317": {
+    "id": "17665317",
+    "title": "Potrzebuję ekipy do ułożenia paneli, do 25m²",
+    "date": "2026-06-05",
+    "city": "Lublin",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.125521+00:00",
+    "last_seen": "2026-06-05T23:16:31.757525+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665040": {
+    "id": "17665040",
+    "title": "Zlecę układanie paneli laminowanych, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Bojano",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.125996+00:00",
+    "last_seen": "2026-06-05T23:16:31.759252+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662696": {
+    "id": "17662696",
+    "title": "Dam zlecenie na montaż paneli PCV, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Kołobrzeg",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.126597+00:00",
+    "last_seen": "2026-06-05T23:16:31.760839+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663727": {
+    "id": "17663727",
+    "title": "Zapytanie o układanie paneli PCV, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Warszawa",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.127141+00:00",
+    "last_seen": "2026-06-05T23:16:31.762258+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663925": {
+    "id": "17663925",
+    "title": "Zlecenie na ułożenie paneli PCV, 40m²,Bydgoszcz",
+    "date": "2026-06-05",
+    "city": "Bydgoszcz",
+    "metrage": "40m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.127867+00:00",
+    "last_seen": "2026-06-05T23:16:31.764192+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663833": {
+    "id": "17663833",
+    "title": "Zlecę ułożenie paneli, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Tarnow",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.128525+00:00",
+    "last_seen": "2026-06-05T23:16:31.766221+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663807": {
+    "id": "17663807",
+    "title": "Szukam specjalisty od montażu paneli PCV, 26-50m²,Bydgoszcz",
+    "date": "2026-06-05",
+    "city": "Bydgoszcz",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.129064+00:00",
+    "last_seen": "2026-06-05T23:16:31.767868+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663712": {
+    "id": "17663712",
+    "title": "Szukam specjalisty od montażu paneli drewnianych, do 25m²,Wiązowna",
+    "date": "2026-06-05",
+    "city": "Wiązowna",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.129914+00:00",
+    "last_seen": "2026-06-05T23:16:31.769983+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663711": {
+    "id": "17663711",
+    "title": "Zlecę układanie paneli PCV, 10m²",
+    "date": "2026-06-05",
+    "city": "Toruń",
+    "metrage": "10m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.130911+00:00",
+    "last_seen": "2026-06-05T23:16:31.772073+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663479": {
+    "id": "17663479",
+    "title": "Zapytanie o układanie paneli PCV, 43m²",
+    "date": "2026-06-05",
+    "city": "Bydgoszcz",
+    "metrage": "43m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.132268+00:00",
+    "last_seen": "2026-06-05T23:16:31.774155+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663059": {
+    "id": "17663059",
+    "title": "Poszukuję ekipy do położenia paneli, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Tychy",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.133700+00:00",
+    "last_seen": "2026-06-05T23:16:31.776285+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662820": {
+    "id": "17662820",
+    "title": "Zlecenie na ułożenie paneli PCV, 26-50m²,Ozimek",
+    "date": "2026-06-05",
+    "city": "Ozimek",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.134470+00:00",
+    "last_seen": "2026-06-05T23:16:31.778274+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662708": {
+    "id": "17662708",
+    "title": "Zapytanie o układanie paneli laminowanych, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Leszno",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.135203+00:00",
+    "last_seen": "2026-06-05T23:16:31.780507+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662600": {
+    "id": "17662600",
+    "title": "Dam zlecenie na montaż paneli PCV, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Śrem",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.135874+00:00",
+    "last_seen": "2026-06-05T23:16:31.782592+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662372": {
+    "id": "17662372",
+    "title": "Zlecę układanie paneli laminowanych, 50m²",
+    "date": "2026-06-05",
+    "city": "Gdańsk",
+    "metrage": "50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.136481+00:00",
+    "last_seen": "2026-06-05T23:16:31.784835+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17661802": {
+    "id": "17661802",
+    "title": "Zlecę układanie paneli laminowanych, 12m²",
+    "date": "2026-06-04",
+    "city": "Gdańsk",
+    "metrage": "12m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.137191+00:00",
+    "last_seen": "2026-06-05T23:16:31.786887+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17661779": {
+    "id": "17661779",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 26-50m²,Szczecin",
+    "date": "2026-06-04",
+    "city": "Szczecin",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.138195+00:00",
+    "last_seen": "2026-06-05T23:16:31.789561+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17661748": {
+    "id": "17661748",
+    "title": "Zlecę układanie paneli PCV, 60m²",
+    "date": "2026-06-04",
+    "city": "Błonie",
+    "metrage": "60m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.138969+00:00",
+    "last_seen": "2026-06-05T23:16:31.791686+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17661578": {
+    "id": "17661578",
+    "title": "Zlecę układanie paneli PCV, 51-100m²",
+    "date": "2026-06-04",
+    "city": "Błonie",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.139850+00:00",
+    "last_seen": "2026-06-05T23:16:31.793777+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17661221": {
+    "id": "17661221",
+    "title": "Poszukuję ekipy do położenia paneli, 87m²",
+    "date": "2026-06-04",
+    "city": "Warszawa",
+    "metrage": "87m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.140561+00:00",
+    "last_seen": "2026-06-05T23:16:31.796020+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17659951": {
+    "id": "17659951",
+    "title": "Szukam specjalisty od montażu paneli PCV, do 25m²,Łęczyca",
+    "date": "2026-06-04",
+    "city": "Łęczyca",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.142441+00:00",
+    "last_seen": "2026-06-05T23:16:31.798155+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17660132": {
+    "id": "17660132",
+    "title": "Szukam specjalisty od montażu desek drewnianych, 85m²,Warszawa",
+    "date": "2026-06-04",
+    "city": "Warszawa",
+    "metrage": "85m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.143391+00:00",
+    "last_seen": "2026-06-05T23:16:31.801036+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17660118": {
+    "id": "17660118",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 10m²,Toruń",
+    "date": "2026-06-04",
+    "city": "Toruń",
+    "metrage": "10m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.144147+00:00",
+    "last_seen": "2026-06-05T23:16:31.803249+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17660094": {
+    "id": "17660094",
+    "title": "Dam zlecenie na montaż paneli laminowanych, 10m²",
+    "date": "2026-06-04",
+    "city": "Toruń",
+    "metrage": "10m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.145047+00:00",
+    "last_seen": "2026-06-05T23:16:31.804905+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17660071": {
+    "id": "17660071",
+    "title": "Dam zlecenie na montaż paneli PCV, 51-100m²",
+    "date": "2026-06-04",
+    "city": "Zielona góra",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.145941+00:00",
+    "last_seen": "2026-06-05T23:16:31.806592+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17659946": {
+    "id": "17659946",
+    "title": "Dam zlecenie na montaż paneli laminowanych, do 25m²",
+    "date": "2026-06-04",
+    "city": "Łódź",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.147400+00:00",
+    "last_seen": "2026-06-05T23:16:31.808328+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17658994": {
+    "id": "17658994",
+    "title": "Szukam specjalisty od montażu paneli PCV, 51-100m²,Bartoszówka",
+    "date": "2026-06-03",
+    "city": "Bartoszówka",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.148307+00:00",
+    "last_seen": "2026-06-05T23:16:31.810644+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17658653": {
+    "id": "17658653",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, do 25m²,Kraków",
+    "date": "2026-06-03",
+    "city": "Kraków",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.149440+00:00",
+    "last_seen": "2026-06-05T23:16:31.812596+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17657996": {
+    "id": "17657996",
+    "title": "Dam zlecenie na montaż paneli PCV, 29m²",
+    "date": "2026-06-03",
+    "city": "Kraków",
+    "metrage": "29m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.150474+00:00",
+    "last_seen": "2026-06-05T23:16:31.814942+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17657808": {
+    "id": "17657808",
+    "title": "Dam zlecenie na montaż paneli PCV, 15m²",
+    "date": "2026-06-03",
+    "city": "Łódź",
+    "metrage": "15m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.151410+00:00",
+    "last_seen": "2026-06-05T23:16:31.816943+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17657717": {
+    "id": "17657717",
+    "title": "Zlecę ułożenie paneli, do 25m²",
+    "date": "2026-06-03",
+    "city": "Warszawa",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.152307+00:00",
+    "last_seen": "2026-06-05T23:16:31.819457+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17657269": {
+    "id": "17657269",
+    "title": "Dam zlecenie na montaż paneli laminowanych, 21m²",
+    "date": "2026-06-03",
+    "city": "Poznań",
+    "metrage": "21m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.154277+00:00",
+    "last_seen": "2026-06-05T23:16:31.821102+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17657230": {
+    "id": "17657230",
+    "title": "Dam zlecenie na montaż paneli PCV, 12m²",
+    "date": "2026-06-03",
+    "city": "Katowice",
+    "metrage": "12m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.155870+00:00",
+    "last_seen": "2026-06-05T23:16:31.823243+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17657197": {
+    "id": "17657197",
+    "title": "Dam zlecenie na montaż paneli PCV, 101-250m²",
+    "date": "2026-06-03",
+    "city": "Skaratki",
+    "metrage": "101-250m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.157166+00:00",
+    "last_seen": "2026-06-05T23:16:31.824695+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17656974": {
+    "id": "17656974",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 14m²,Lublin",
+    "date": "2026-06-03",
+    "city": "Lublin",
+    "metrage": "14m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.158242+00:00",
+    "last_seen": "2026-06-05T23:16:31.826447+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17656891": {
+    "id": "17656891",
+    "title": "Dam zlecenie na montaż paneli PCV, 27m²",
+    "date": "2026-06-03",
+    "city": "Warszawa",
+    "metrage": "27m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.159293+00:00",
+    "last_seen": "2026-06-05T23:16:31.828081+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17656668": {
+    "id": "17656668",
+    "title": "Dam zlecenie na montaż paneli PCV, 51-100m²",
+    "date": "2026-06-03",
+    "city": "Ełk",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.160485+00:00",
+    "last_seen": "2026-06-05T23:16:31.829685+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17656611": {
+    "id": "17656611",
+    "title": "Dam zlecenie na montaż paneli laminowanych, 26-50m²",
+    "date": "2026-06-03",
+    "city": "Warszawa",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.161884+00:00",
+    "last_seen": "2026-06-05T23:16:31.831345+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17656170": {
+    "id": "17656170",
+    "title": "Dam zlecenie na montaż paneli PCV, 34m²",
+    "date": "2026-06-03",
+    "city": "Szczecin",
+    "metrage": "34m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.163324+00:00",
+    "last_seen": "2026-06-05T23:16:31.834296+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17655617": {
+    "id": "17655617",
+    "title": "Szukam specjalisty od montażu paneli PCV, do 25m²,Bydgoszcz",
+    "date": "2026-06-03",
+    "city": "Bydgoszcz",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.164709+00:00",
+    "last_seen": "2026-06-05T23:16:31.836286+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17655479": {
+    "id": "17655479",
+    "title": "Zlecę układanie paneli drewnianych, 26-50m²",
+    "date": "2026-06-03",
+    "city": "Koszalin",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.165909+00:00",
+    "last_seen": "2026-06-05T23:16:31.837835+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17654821": {
+    "id": "17654821",
+    "title": "Szukam specjalisty od montażu paneli PCV, 51-100m²,Żabia Wola",
+    "date": "2026-06-02",
+    "city": "Wola",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
+    "first_seen": "2026-06-05T23:04:33.167110+00:00",
+    "last_seen": "2026-06-05T23:16:31.839563+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665779": {
+    "id": "17665779",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-06",
+    "city": "Kraków",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.840671+00:00",
+    "last_seen": "2026-06-05T23:16:33.327272+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17664999": {
+    "id": "17664999",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Jasło",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.842373+00:00",
+    "last_seen": "2026-06-05T23:16:33.329896+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665455": {
+    "id": "17665455",
+    "title": "Zlecę cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-05",
+    "city": "Piekary",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.843653+00:00",
+    "last_seen": "2026-06-05T23:16:33.332146+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665434": {
+    "id": "17665434",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Zgorzelec",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.844835+00:00",
+    "last_seen": "2026-06-05T23:16:33.334293+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665398": {
+    "id": "17665398",
+    "title": "Dam zlecenie na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-05",
+    "city": "Ostrow",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.846087+00:00",
+    "last_seen": "2026-06-05T23:16:33.336537+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665349": {
+    "id": "17665349",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 101-250m²",
+    "date": "2026-06-05",
+    "city": "Piaseczno",
+    "metrage": "101-250m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.848001+00:00",
+    "last_seen": "2026-06-05T23:16:33.338696+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17664812": {
+    "id": "17664812",
+    "title": "Zapytanie o cyklinowanie podłogi, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Warszawa",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.849327+00:00",
+    "last_seen": "2026-06-05T23:16:33.340875+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17664722": {
+    "id": "17664722",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-05",
+    "city": "Rzeszów",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.850737+00:00",
+    "last_seen": "2026-06-05T23:16:33.343007+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663451": {
+    "id": "17663451",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 19m²",
+    "date": "2026-06-05",
+    "city": "Wrocław",
+    "metrage": "19m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.852046+00:00",
+    "last_seen": "2026-06-05T23:16:33.345200+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663417": {
+    "id": "17663417",
+    "title": "Szukam ekipy na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-05",
+    "city": "Szczecin",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.853350+00:00",
+    "last_seen": "2026-06-05T23:16:33.347615+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17663150": {
+    "id": "17663150",
+    "title": "Szukam ekipy na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-05",
+    "city": "Poznań",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.854751+00:00",
+    "last_seen": "2026-06-05T23:16:33.350012+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662827": {
+    "id": "17662827",
+    "title": "Zlecę cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-05",
+    "city": "Warszawa",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.856385+00:00",
+    "last_seen": "2026-06-05T23:16:33.352217+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662805": {
+    "id": "17662805",
+    "title": "Zapytanie o cyklinowanie podłogi, 51-100m²",
+    "date": "2026-06-05",
+    "city": "Kraków",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.857719+00:00",
+    "last_seen": "2026-06-05T23:16:33.354390+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662543": {
+    "id": "17662543",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 54m²",
+    "date": "2026-06-05",
+    "city": "Płońsk",
+    "metrage": "54m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.859023+00:00",
+    "last_seen": "2026-06-05T23:16:33.356528+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662195": {
+    "id": "17662195",
+    "title": "Zapytanie o cyklinowanie podłogi, 30m²",
+    "date": "2026-06-05",
+    "city": "Warszawa",
+    "metrage": "30m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.860469+00:00",
+    "last_seen": "2026-06-05T23:16:33.358705+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17662014": {
+    "id": "17662014",
+    "title": "Dam zlecenie na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-05",
+    "city": "Olsztyn",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.862006+00:00",
+    "last_seen": "2026-06-05T23:16:33.360851+00:00",
+    "age_group": "fresh",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "fresh"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17661691": {
+    "id": "17661691",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-04",
+    "city": "Zgierz",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.863520+00:00",
+    "last_seen": "2026-06-05T23:16:33.363018+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17659987": {
+    "id": "17659987",
+    "title": "Zlecę cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-04",
+    "city": "Warszawa",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.865058+00:00",
+    "last_seen": "2026-06-05T23:16:33.365683+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17659913": {
+    "id": "17659913",
+    "title": "Zlecę cyklinowanie podłogi, 101-250m²",
+    "date": "2026-06-04",
+    "city": "Głuchowo",
+    "metrage": "101-250m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.866628+00:00",
+    "last_seen": "2026-06-05T23:16:33.367937+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17658965": {
+    "id": "17658965",
+    "title": "Zlecę cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-03",
+    "city": "Myślenice",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.868357+00:00",
+    "last_seen": "2026-06-05T23:16:33.370274+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17658947": {
+    "id": "17658947",
+    "title": "Zlecę cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-03",
+    "city": "Wolin",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.869830+00:00",
+    "last_seen": "2026-06-05T23:16:33.372405+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17658905": {
+    "id": "17658905",
+    "title": "Zlecę cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-03",
+    "city": "Świdnik",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
+    "first_seen": "2026-06-05T23:04:34.871546+00:00",
+    "last_seen": "2026-06-05T23:16:33.374551+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-05",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  }
+}

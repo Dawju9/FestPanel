@@ -1,6 +1,16 @@
 import { getServerSession } from 'next-auth';
-import CredentialsProvider from 'next-auth/providers/credentials';
+import CredentialsProviderRaw from 'next-auth/providers/credentials';
 import bcrypt from 'bcryptjs';
+
+// next-auth v4 ships CJS modules. The default export lives on `.default` in
+// CJS interop, but webpack's `import` interop can drop that access when the
+// package does not set `__esModule: true`, causing `CredentialsProvider` to
+// resolve to the module object instead of the function. Resolve defensively
+// to always get a callable provider factory.
+const CredentialsProvider =
+  typeof CredentialsProviderRaw === 'function'
+    ? CredentialsProviderRaw
+    : CredentialsProviderRaw && CredentialsProviderRaw.default;
 
 export const authOptions = {
   providers: [
@@ -61,4 +71,8 @@ export async function requireAuth(context) {
     };
   }
   return { props: {} };
+}
+
+export async function getAuthSession(req, res) {
+  return await getServerSession(req, res, authOptions);
 }

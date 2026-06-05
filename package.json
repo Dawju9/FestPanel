@@ -7,44 +7,44 @@
   "license": "MIT",
   "author": "whitekali",
   "scripts": {
-    "dev": "next dev --turbopack -p 3000 -H 0.0.0.0",
-    "build": "next build && rm -f .next/standalone/.env && cp -r .next/static .next/standalone/.next/static/ && cp -r public .next/standalone/public/",
+    "dev": "next dev -p 3000 -H 0.0.0.0",
+    "build": "next build && rm -f .next/standalone/.env && cp -r .next/static .next/standalone/.next/static/ && cp -r public .next/standalone/public/ 2>/dev/null || true",
     "start": "HOSTNAME=0.0.0.0 node -r dotenv/config .next/standalone/server.js",
     "lint": "eslint src/ --fix",
     "lint:check": "eslint src/",
     "typecheck": "tsc --noEmit",
     "watch": "node scripts/watch-lint.js",
-    "setup:admin": "node scripts/setup-admin.js"
+    "setup:admin": "node scripts/setup-admin.js",
+    "setup:welcome": "node scripts/setup-welcome.js"
   },
   "dependencies": {
-    "@google-cloud/recaptcha-enterprise": "^6.4.1",
-    "@vercel/analytics": "^2.0.1",
-    "@vercel/speed-insights": "^2.0.0",
-    "bcryptjs": "^3.0.3",
-    "dotenv": "^17.4.2",
-    "framer-motion": "^12.40.0",
-    "lucide-react": "^0.468.0",
-    "mongodb": "^7.2.0",
-    "next": "^16.2.7",
-    "next-auth": "^4.24.14",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@vercel/analytics": "1.5.0",
+    "@vercel/speed-insights": "1.2.0",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.4.7",
+    "framer-motion": "11.18.0",
+    "lucide-react": "0.468.0",
+    "next": "15.1.6",
+    "next-auth": "4.24.11",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@eslint/js": "^9.18.0",
-    "@types/node": "^22.10.5",
-    "@types/react": "^19.0.6",
-    "@types/react-dom": "^19.0.6",
-    "chokidar": "^4.0.3",
-    "eslint": "^9.18.0",
-    "eslint-config-next": "^16.2.7",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.16",
-    "globals": "^17.6.0",
-    "typescript": "^5.7.2"
+    "@eslint/js": "9.18.0",
+    "@next/eslint-plugin-next": "15.1.6",
+    "@types/node": "20.17.10",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "chokidar": "4.0.3",
+    "eslint": "9.18.0",
+    "eslint-config-next": "15.1.6",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-refresh": "0.4.16",
+    "globals": "15.14.0",
+    "typescript": "5.7.2"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.18.0"
   }
 }
