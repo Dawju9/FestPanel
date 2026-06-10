@@ -1,0 +1,61 @@
+:root {
+  --retro-primary: #ff2200;
+  --retro-bg: #080808;
+  --retro-text: #f0f0f0;
+  --retro-accent: #ff2200;
+  --retro-scanline: rgba(255, 34, 0, 0.1);
+}
+
+[data-theme="retro_futuristic"] {
+  --background: var(--retro-bg);
+  --text: var(--retro-text);
+  --primary: var(--retro-primary);
+  --accent: var(--retro-accent);
+}
+
+[data-theme="retro_futuristic"] {
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Bebas+Neue&display=swap');
+  font-family: 'Space Mono', monospace;
+}
+
+[data-theme="retro_futuristic"] .title {
+  font-family: 'Bebas Neue', cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Scanline effect */
+[data-theme="retro_futuristic"] {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 34, 0, 0.05) 50%,
+    transparent 100%
+  );
+  background-size: 100% 20px;
+}
+
+
+/* Glitch effect on hover */
+[data-theme="retro_futuristic"] .glitch:hover {
+  position: relative;
+}
+
+[data-theme="retro_futuristic"] .glitch:hover::before {
+  content: attr(data-text);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  color: #00ffcc;
+  text-shadow: 2px 0 #ff0000;
+  animation: glitch 0.3s infinite;
+}
+
+@keyframes glitch {
+  0% { transform: translate(0, 0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0, 0); }
+}

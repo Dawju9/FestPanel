@@ -1,0 +1,74 @@
+# Wzór projektowy strony — daniorobot.github.io
+
+**Styl:** Retro-futurystyczny / Cyberpunk / Glitch / Old-school Terminal + Vaporwave
+
+## 1. Kolorystyka (Color Palette)
+
+- **Background główny**: `#080808` (bardzo ciemny, prawie czarny)
+- **Tekst główny**: `#f0f0f0` (off-white)
+- **Akcent neonowy**: `#ff2200` (intensywna czerwona neonówka)
+- **Tekst drugorzędny**: `#aaaaaa` / `#666666`
+- **Cienie i obramowania**: `#ff2200` z niską przezroczystością + mocne czarne cienie
+- **Efekty**: scanline, glitch, invert na hover/active
+
+## 2. Typografia
+
+- **Główna czcionka**: **Space Mono** (monospace)
+- **Tytuł "DNRBT"**: **Bebas Neue** (bardzo gruba, condensed)
+- **Styl tekstu**:
+  - Wszystko **UPPERCASE**
+  - Duży `letter-spacing` (3–6px)
+  - Grubość: 400–700
+  - Kolor: `#f0f0f0` lub `#ff2200`
+
+## 3. Układ strony (Layout)
+
+- **Full-screen** (`height: 100vh`, `overflow: hidden`)
+- **Centrowanie pionowe i poziome**
+- **Warstwy**:
+  1. Intro / QR Overlay (ekran startowy)
+  2. Top bar (cienki)
+  3. Główna sekcja z logo "DNRBT"
+  4. Lista linków (vertical stack)
+  5. Bottom status bar
+
+### Struktura:
+- **Top bar**: Licznik kliknięć + lokalizacja (np. GLIWICE)
+- **Centralny hero**: Ogromne "DNRBT" z glitch efektem
+- **Linki**: Prostokątne przyciski z animacją fill (biały background od lewej)
+- **Bottom bar**: Status `--:--:-- NORMAL DNRBT.2025`
+
+## 4. Interakcje i Animacje (UX)
+
+- Kliknięcie w "DNRBT" → glitch + mocny shadow
+- Hover na linkach → neon invert + fill animation
+- Scanline na całym tle (subtelny)
+- Sekretny **Konami Code** (`↑↑↓↓←→←→BA`) → ekran DanioCoin
+- Responsywność: `clamp()` + mobile-first
+- Duże obszary klikalne
+
+## 5. Ornamenty i detale
+
+- Subtelny efekt **scanline** (`repeating-linear-gradient`)
+- Mocne neonowe cienie i obramowania
+- Glitch animation na tytule
+- Animowany QR code z scanning beam
+- Minimalistyczne — prawie zero obrazków, wszystko CSS + SVG
+
+## 6. Ogólna filozofia designu
+
+- Ekstremalny minimalizm + maksymalna osobowość
+- Humor i easter eggi
+- Underground / hacker / memiczny klimat
+- Bardzo wysoka spójność wizualna
+- Idealny na link hub twórcy internetowego
+
+---
+
+**Technologie zalecane do odtworzenia:**
+- HTML5 + Vanilla CSS (lub Tailwind)
+- Google Fonts: Space Mono + Bebas Neue
+- CSS Variables dla kolorów
+- CSS animations + `@keyframes` dla glitch i scanline
+
+

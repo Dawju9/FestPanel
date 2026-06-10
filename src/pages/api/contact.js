@@ -32,7 +32,7 @@ export default async function handler(req, res) {
     try {
       const data = await fs.readFile(filePath, 'utf8');
       submissions = JSON.parse(data);
-    } catch (e) {
+    } catch {
       // file might not exist
     }
     submissions.push(submission);
@@ -63,6 +63,7 @@ export default async function handler(req, res) {
 
     res.status(200).json({ message: 'Form submitted successfully!' });
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error('Submission error:', error);
     res.status(500).json({ message: 'Internal Server Error' });
   }

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { signIn, useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../../../lib/auth';
+import { authOptions } from '../lib/auth';
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -154,17 +154,20 @@ export default function Login() {
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+            background: var(--hero-bg);
             padding: 20px;
+            transition: background 0.5s ease;
           }
 
           .login-container {
             width: 100%;
             max-width: 420px;
-            background: #ffffff;
+            background: var(--surface, var(--bg-color));
             border-radius: 16px;
             padding: 48px 40px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid var(--border-color);
+            transition: background 0.5s ease, color 0.5s ease;
           }
 
           .login-header {
@@ -180,15 +183,15 @@ export default function Login() {
           }
 
           .login-logo .logo-text {
-            color: #1a1a1a;
+            color: var(--color-text);
           }
 
           .login-logo .logo-accent {
-            color: #D32F2F;
+            color: var(--color-primary);
           }
 
           .login-subtitle {
-            color: #666666;
+            color: var(--color-text-light);
             font-size: 14px;
           }
 
@@ -207,35 +210,38 @@ export default function Login() {
           .form-group label {
             font-size: 14px;
             font-weight: 600;
-            color: #333333;
+            color: var(--color-text);
           }
 
           .form-group input {
             padding: 14px 16px;
-            border: 2px solid #e0e0e0;
+            border: 2px solid var(--border-color);
             border-radius: 8px;
             font-size: 16px;
+            background: var(--bg-color);
+            color: var(--color-text);
             transition: all 0.3s ease;
           }
 
           .form-group input:focus {
             outline: none;
-            border-color: #D32F2F;
+            border-color: var(--color-primary);
           }
 
           .login-error {
-            background: #ffebee;
-            color: #D32F2F;
+            background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+            color: var(--color-primary);
             padding: 12px 16px;
             border-radius: 8px;
             font-size: 14px;
             font-weight: 500;
             text-align: center;
+            border: 1px solid var(--color-primary);
           }
 
           .login-btn {
-            background: #D32F2F;
-            color: #ffffff;
+            background: var(--color-primary);
+            color: var(--color-white);
             padding: 16px;
             border: none;
             border-radius: 8px;
@@ -247,7 +253,7 @@ export default function Login() {
           }
 
           .login-btn:hover:not(:disabled) {
-            background: #B71C1C;
+            background: var(--color-primary-dark);
             transform: translateY(-2px);
           }
 
@@ -262,14 +268,14 @@ export default function Login() {
           }
 
           .back-link {
-            color: #666666;
+            color: var(--color-text-light);
             text-decoration: none;
             font-size: 14px;
             transition: color 0.3s ease;
           }
 
           .back-link:hover {
-            color: #D32F2F;
+            color: var(--color-primary);
           }
         `}</style>
       </div>

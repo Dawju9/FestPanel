@@ -41,9 +41,16 @@ export const authOptions = {
     maxAge: 24 * 60 * 60,
   },
   pages: {
-    signIn: '/js/auth/login',
+    signIn: '/auth',
+    error: '/auth/error',
   },
-  callbacks: {
+   callbacks: {
+    async signIn({ user, account, profile, email, credentials }) {
+      if (!user) {
+        return '/auth/error?error=CredentialsSignin';
+      }
+      return true;
+    },
     async jwt({ token, user }) {
       if (user) {
         token.id = user.id;
@@ -65,7 +72,7 @@ export async function requireAuth(context) {
   if (!session) {
     return {
       redirect: {
-        destination: '/js/auth/login',
+        destination: '/auth',
         permanent: false,
       },
     };

@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "crawler": {
+      "frequency": "hourly",
+      "enabled": true
+    },
+    "insights": {
+      "frequency": "daily",
+      "enabled": true
+    }
+  }
+}

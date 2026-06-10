@@ -24,7 +24,7 @@ export default function QRPage() {
           </p>
 
           <div className="qr-image-container">
-            <img src={qrUrl} alt="QR Code" className="qr-image" />
+            <img src={qrUrl} alt="QR Code" className="qr-image" width={250} height={250} />
           </div>
 
           <div className="qr-url">
@@ -47,12 +47,13 @@ export default function QRPage() {
       <style jsx>{`
         .qr-page {
           min-height: 100vh;
-          background: #f5f5f5;
+          background: var(--bg-color);
           display: flex;
           align-items: center;
           justify-content: center;
           padding: 20px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          transition: background-color 0.5s ease;
         }
 
         .container {
@@ -61,11 +62,12 @@ export default function QRPage() {
         }
 
         .qr-card {
-          background: white;
+          background: var(--surface, var(--bg-color));
           padding: 40px;
           border-radius: 24px;
-          box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+          box-shadow: var(--shadow-lg);
           text-align: center;
+          border: 1px solid var(--border-color);
         }
 
         .qr-header {
@@ -79,12 +81,12 @@ export default function QRPage() {
         .qr-header h1 {
           font-size: 24px;
           font-weight: 800;
-          color: #1a1a1a;
+          color: var(--color-text);
           margin: 0;
         }
 
         .qr-desc {
-          color: #666;
+          color: var(--color-text-light);
           margin-bottom: 30px;
           line-height: 1.5;
         }
@@ -92,7 +94,7 @@ export default function QRPage() {
         .qr-image-container {
           background: white;
           padding: 20px;
-          border: 2px solid #eee;
+          border: 2px solid var(--border-color);
           border-radius: 16px;
           display: inline-block;
           margin-bottom: 24px;
@@ -105,15 +107,16 @@ export default function QRPage() {
         }
 
         .qr-url {
-          background: #f8f8f8;
+          background: var(--color-light);
           padding: 12px;
           border-radius: 8px;
           margin-bottom: 30px;
           word-break: break-all;
+          border: 1px solid var(--border-color);
         }
 
         .qr-url code {
-          color: #D32F2F;
+          color: var(--color-primary);
           font-weight: 600;
         }
 
@@ -128,8 +131,8 @@ export default function QRPage() {
           align-items: center;
           justify-content: center;
           gap: 10px;
-          background: #D32F2F;
-          color: white;
+          background: var(--color-primary);
+          color: var(--color-white);
           text-decoration: none;
           padding: 16px;
           border-radius: 12px;
@@ -138,7 +141,7 @@ export default function QRPage() {
         }
 
         .btn-download:hover {
-          background: #B71C1C;
+          background: var(--color-primary-dark);
         }
 
         .btn-preview {
@@ -147,18 +150,18 @@ export default function QRPage() {
           justify-content: center;
           gap: 10px;
           background: transparent;
-          color: #666;
+          color: var(--color-text-light);
           text-decoration: none;
           padding: 16px;
           border-radius: 12px;
           font-weight: 600;
-          border: 2px solid #eee;
+          border: 2px solid var(--border-color);
           transition: all 0.2s;
         }
 
         .btn-preview:hover {
-          background: #f8f8f8;
-          border-color: #ddd;
+          background: var(--color-light);
+          border-color: var(--color-text-light);
         }
       `}</style>
     </div>

@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
 import { Phone, Mail, Clock, CheckCircle, ArrowRight, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
 import ContactPopup from '../components/ContactPopup';
 import ReservationSlider from '../components/ReservationSlider';
-import ThemeSwitcher from '../components/ThemeSwitcher';
+import { trackEvent } from '../lib/analytics';
+import SpecialistPopup from '../components/SpecialistPopup';
 
 // ... (existing code, update components to use motion.div)
 
@@ -32,6 +33,34 @@ export default function FestPanel() {
   const [status, setStatus] = useState('');
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isResOpen, setIsResOpen] = useState(false);
+  const recaptchaRef = useRef(null);
+  const widgetIdRef = useRef(null);
+
+  useEffect(() => {
+    const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+    if (!SITE_KEY) {return;}
+
+    const renderWidget = () => {
+      if (!window.grecaptcha || !recaptchaRef.current) {return;}
+      if (widgetIdRef.current !== null) {return;}
+      try {
+        widgetIdRef.current = window.grecaptcha.render(recaptchaRef.current, {
+          sitekey: SITE_KEY,
+        });
+      } catch { /* widget already rendered or grecaptcha unavailable */ }
+    };
+
+    if (window.grecaptcha) {
+      renderWidget();
+    } else {
+      const script = document.createElement('script');
+      script.src = 'https://www.google.com/recaptcha/api.js?render=explicit';
+      script.async = true;
+      script.defer = true;
+      script.onload = () => setTimeout(renderWidget, 150);
+      document.body.appendChild(script);
+    }
+  }, []);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -41,8 +70,9 @@ export default function FestPanel() {
     e.preventDefault();
     setStatus('Wysyłanie...');
     
-    // Get reCAPTCHA response token
-    const token = window.grecaptcha.getResponse();
+    const token = widgetIdRef.current !== null
+      ? window.grecaptcha.getResponse(widgetIdRef.current)
+      : window.grecaptcha?.getResponse?.();
     if (!token) {
       setStatus('Proszę wypełnić reCAPTCHA.');
       return;
@@ -58,14 +88,14 @@ export default function FestPanel() {
       if (response.ok) {
         setStatus('Wysłano pomyślnie!');
         setFormData({ name: '', phone: '', email: '', message: '' });
-        window.grecaptcha.reset(); // Reset captcha
+        if (widgetIdRef.current !== null) {window.grecaptcha.reset(widgetIdRef.current);}
       } else {
         setStatus('Wystąpił błąd. Spróbuj ponownie.');
-        window.grecaptcha.reset(); // Reset captcha
+        if (widgetIdRef.current !== null) {window.grecaptcha.reset(widgetIdRef.current);}
       }
-    } catch (error) {
+    } catch {
       setStatus('Wystąpił błąd. Spróbuj ponownie.');
-      window.grecaptcha.reset();
+      if (widgetIdRef.current !== null) {window.grecaptcha.reset(widgetIdRef.current);}
     }
   };
 
@@ -75,11 +105,24 @@ export default function FestPanel() {
         <title>Profesjonalny Montaż Paneli Gdańsk | Panele Winylowe i Podłogowe | FestPanel</title>
         <meta name="description" content="Szybki i profesjonalny montaż paneli winylowych oraz podłogowych w Gdańsku i całej Polsce. Darmowa wycena, wysoka jakość, gwarancja. Sprawdź nas!" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            'name': 'FestPanel',
+            'url': 'https://festpanel.pl',
+            'telephone': '+48698079424',
+            'address': {
+              '@type': 'PostalAddress',
+              'addressLocality': 'Gdańsk',
+              'addressCountry': 'PL'
+            },
+            'description': 'Profesjonalny montaż paneli podłogowych i winylowych.',
+            'priceRange': '$$'
+          }) }} />
       </Head>
 
       <header className="header">
-        <div className="container header-content">
+        <div className="container-fluid header-content">
           <div className="logo">
             <span className="logo-text">FEST</span>
             <span className="logo-accent">PANEL</span>
@@ -98,7 +141,7 @@ export default function FestPanel() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="container hero-content"
+          className="container-fluid hero-content"
         >
           <span className="hero-badge">Profesjonalne usługi montażowe</span>
           <h1 className="hero-title">
@@ -267,7 +310,7 @@ export default function FestPanel() {
                   onChange={handleChange} 
                   required 
                 />
-                <div className="g-recaptcha" data-sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}></div>
+                <div ref={recaptchaRef} style={{ minHeight: '78px' }} />
                 <button type="submit" className="btn-submit">
                   WYŚLIJ ZAPYTANIE
                   <ArrowRight size={18} />
@@ -301,11 +344,30 @@ export default function FestPanel() {
       </footer>
       <ContactPopup isOpen={isPopupOpen} onClose={() => setIsPopupOpen(false)} />
       <ReservationSlider isOpen={isResOpen} onClose={() => setIsResOpen(false)} />
-      <ThemeSwitcher />
-      
-      <button onClick={() => setIsResOpen(true)} style={{ position: 'fixed', bottom: '20px', right: '20px', background: 'var(--color-primary)', color: 'var(--color-white)', padding: '16px', borderRadius: '50%', border: 'none', cursor: 'pointer', zIndex: 1000 }}>
-        <Calendar size={24} />
-      </button>
+
+      <div className="floating-buttons">
+        <SpecialistPopup />
+        <button
+          onClick={() => { setIsResOpen(true); trackEvent('buttonClick', 'OpenReservationSlider'); }}
+          aria-label="Zarezerwuj termin"
+          title="Zarezerwuj termin"
+          style={{
+            background: 'var(--color-primary)',
+            color: 'var(--color-white)',
+            width: '56px',
+            height: '56px',
+            borderRadius: '50%',
+            border: 'none',
+            cursor: 'pointer',
+            boxShadow: '0 4px 16px rgba(0,0,0,0.3)',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <Calendar size={24} />
+        </button>
+      </div>
     </>
   );
 }

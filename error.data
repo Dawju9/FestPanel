@@ -1,0 +1,26 @@
+
+19:7  Warning: Unexpected console statement.  no-console
+27:7  Warning: Unexpected console statement.  no-console
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+ ✓ Linting and checking validity of types
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+ ✓ Collecting page data
+[Error: Minified React error #130; visit https://reactjs.org/docs/error-decoder.html?invariant=130&args[]=object&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.]
+Error occurred prerendering page "/qr". Read more: https://nextjs.org/docs/messages/prerender-error
+Error: Minified React error #130; visit https://reactjs.org/docs/error-decoder.html?invariant=130&args[]=object&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Zc (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:74:493)
+    at Z (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at Zc (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:71:145)
+    at Z (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+    at $c (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at bd (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+    at Z (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+    at $c (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+    at Zc (/Development/repos/Projekt/FestPanel/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:71:145)
+Export encountered an error on /qr, exiting the build.
+ ⨯ Static worker exited with code: 1 and signal: null
+⌛ 16833ms
+ root  srv1270647  /Development/repos/Projekt/FestPanel

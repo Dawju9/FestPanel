@@ -187,15 +187,15 @@ deploy() {
 
 
 _crawler_python() {
-  (cd "$1" && source venv/bin/activate && python3 "$2")
+  (cd "$1" && source venv/bin/activate && python3 $2)
 }
 
 _crawler_python_nohup() {
-  (cd "$1" && source venv/bin/activate && nohup python3 "$2" > /dev/null 2>&1 &)
+  (cd "$1" && source venv/bin/activate && nohup python3 $2 > /dev/null 2>&1 &)
 }
 
 _crawler_python_plain() {
-  (cd "$1" && python3 "$2")
+  (cd "$1" && python3 $2)
 }
 
 crawler() {

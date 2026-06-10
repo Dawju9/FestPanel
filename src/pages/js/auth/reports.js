@@ -138,7 +138,7 @@ export default function Reports() {
           borderRadius: '12px',
           boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
           overflow: 'hidden',
-        }}>
+        }} className="admin-table-wrap">
           <div style={{
             padding: '20px 24px',
             borderBottom: '1px solid #f0f0f0',

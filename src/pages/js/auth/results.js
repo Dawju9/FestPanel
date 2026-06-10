@@ -78,17 +78,8 @@ export default function Results() {
             </select>
           </div>
 
-          <div style={{
-            background: '#ffffff',
-            borderRadius: '12px',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-            overflow: 'hidden',
-          }}>
-            <table style={{
-              width: '100%',
-              borderCollapse: 'collapse',
-              fontSize: '14px',
-            }}>
+          <div className="admin-table-wrap">
+            <table>
               <thead>
                 <tr style={{ background: '#f9f9f9', textAlign: 'left' }}>
                   {['Title', 'Location', 'Code', 'Date', 'Salary', 'Meters', 'Source', 'Actions'].map(h => (

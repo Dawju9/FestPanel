@@ -1,4 +1,11 @@
 themes:
+  retro_futuristic:
+    primary: "#ff2200"
+    primary_dark: "#cc0000"
+    primary_light: "#ff4444"
+    bg_color: "#080808"
+    text_color: "#f0f0f0"
+    hero_bg: "linear-gradient(135deg, #080808 0%, #1a1a1a 100%)"
   default:
     primary: "#D32F2F"
     primary_dark: "#B71C1C"

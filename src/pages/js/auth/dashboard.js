@@ -15,52 +15,73 @@ export async function getServerSideProps(context) {
     submissions = JSON.parse(data).reverse(); // Newest first
   } catch (e) {
     // No submissions yet
+    console.error(e);
+  }
+
+  // Read analytics
+  let analytics = { pageViews: 0, buttonClicks: {}, ulotkaTouches: 0 };
+  try {
+    const data = await fs.readFile(path.join(process.cwd(), 'data', 'analytics.json'), 'utf8');
+    analytics = JSON.parse(data);
+  } catch (e) {
+    console.error(e);
+  }
+
+  let activeViewers = 0;
+  try {
+    const data = await fs.readFile(path.join(process.cwd(), 'data', 'active_sessions.json'), 'utf8');
+    activeViewers = Object.keys(JSON.parse(data)).length;
+  } catch (e) {
+    console.error(e);
   }
 
   return {
     props: {
       ...auth.props,
       submissions,
+      analytics,
+      activeViewers
     },
   };
 }
 
-export default function Dashboard({ submissions }) {
+export default function Dashboard({ submissions, analytics, activeViewers }) {
   const { data: session } = useSession();
   const stats = [
-    { label: 'Total Crawls', value: '1,247', icon: '🕷️', color: '#D32F2F' },
-    { label: 'Results Found', value: '89', icon: '📋', color: '#1976D2' },
-    { label: 'Active Keywords', value: '8', icon: '🔑', color: '#388E3C' },
-    { label: 'Pending Tasks', value: '3', icon: '✅', color: '#F57C00' },
-    { label: 'Events Today', value: '12', icon: '📊', color: '#7B1FA2' },
-    { label: 'Hit Rate', value: '7.2%', icon: '🎯', color: '#C62828' },
+    { label: 'Page Views', value: analytics.pageViews, icon: '👁️', color: 'var(--color-primary)' },
+    { label: 'Ulotka Touches', value: analytics.ulotkaTouches, icon: '📄', color: '#1976D2' },
+    { label: 'Active Viewers', value: activeViewers, icon: '👤', color: '#388E3C' },
+    { label: 'Button Clicks', value: Object.values(analytics.buttonClicks).reduce((a, b) => a + b, 0), icon: '🖱️', color: '#F57C00' },
   ];
 
   return (
     <AdminLayout>
       <div>
         <div style={{ marginBottom: '32px' }}>
-          <h1 style={{ fontSize: '28px', fontWeight: 800, color: '#1a1a1a', marginBottom: '8px' }}>
+          <h1 style={{ fontSize: '28px', fontWeight: 800, color: 'var(--color-text)', marginBottom: '8px' }}>
             Dashboard
           </h1>
-          <p style={{ color: '#666', fontSize: '15px' }}>
+          <p style={{ color: 'var(--color-text-light)', fontSize: '15px' }}>
             Welcome back, {session?.user?.name || 'Admin'}. Here's your crawler overview.
           </p>
         </div>
 
-          <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-            gap: '20px',
-            marginBottom: '32px',
-          }}>
+           <div style={{
+             display: 'grid',
+             gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+             gap: '20px',
+             marginBottom: '32px',
+           }}>
             {stats.map((stat, i) => (
               <div key={i} style={{
-                background: '#ffffff',
+                background: 'var(--surface, var(--bg-color))',
                 borderRadius: '12px',
                 padding: '24px',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+                boxShadow: 'var(--shadow-sm)',
                 borderLeft: `4px solid ${stat.color}`,
+                border: '1px solid var(--border-color)',
+                borderLeftWidth: '4px',
+                color: 'var(--color-text)',
               }}>
                 <div style={{
                   display: 'flex',
@@ -73,43 +94,45 @@ export default function Dashboard({ submissions }) {
                 <p style={{
                   fontSize: '28px',
                   fontWeight: 800,
-                  color: '#1a1a1a',
+                  color: 'var(--color-text)',
                   marginBottom: '4px',
                 }}>
                   {stat.value}
                 </p>
-                <p style={{ fontSize: '13px', color: '#666' }}>{stat.label}</p>
+                <p style={{ fontSize: '13px', color: 'var(--color-text-light)' }}>{stat.label}</p>
               </div>
             ))}
           </div>
 
           <div style={{
-            background: '#ffffff',
+            background: 'var(--surface, var(--bg-color))',
             borderRadius: '12px',
             padding: '24px',
-            boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+            boxShadow: 'var(--shadow-sm)',
+            border: '1px solid var(--border-color)',
             marginBottom: '24px',
+            color: 'var(--color-text)',
           }}>
-            <h3 style={{ fontSize: '16px', fontWeight: 700, color: '#1a1a1a', marginBottom: '16px' }}>
+            <h3 style={{ fontSize: '16px', fontWeight: 700, color: 'var(--color-text)', marginBottom: '16px' }}>
               Form Submissions
             </h3>
             {submissions.length === 0 ? (
-                <p style={{ color: '#999' }}>No submissions yet.</p>
+                <p style={{ color: 'var(--color-text-light)' }}>No submissions yet.</p>
             ) : (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                     {submissions.map((sub, i) => (
                         <div key={i} style={{
                             padding: '12px',
-                            border: '1px solid #eee',
+                            border: '1px solid var(--border-color)',
                             borderRadius: '8px',
                         }}>
                             <div style={{ fontWeight: 600 }}>{sub.name} ({sub.email})</div>
-                            <div style={{ fontSize: '13px', color: '#666' }}>Tel: {sub.phone} | Metraż: {sub.metrage}m2</div>
-                            <div style={{ fontSize: '13px', color: '#666' }}>
+                            <div style={{ fontSize: '13px', color: 'var(--color-text-light)' }}>Tel: {sub.phone} | Metraż: {sub.metrage}m2</div>
+                            <div style={{ fontSize: '13px', color: 'var(--color-text-light)' }}>
                               Usługi: {sub.prepServices ? 'Przygotowanie, ' : ''}{sub.baseboards ? 'Listwy' : ''}
                             </div>
                             <div style={{ marginTop: '8px' }}>{sub.message}</div>
-                            <div style={{ fontSize: '11px', color: '#aaa', marginTop: '8px' }}>{new Date(sub.createdAt).toLocaleString()}</div>
+                            <div style={{ fontSize: '11px', color: 'var(--color-text-light)', opacity: 0.7, marginTop: '8px' }}>{new Date(sub.createdAt).toLocaleString()}</div>
                         </div>
                     ))}
                 </div>

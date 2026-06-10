@@ -5,7 +5,7 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'standalone',
-  trailingSlash: true,
+  trailingSlash: false,
   generateEtags: true,
   compress: true,
   // Ensure node-only deps used at runtime are traced into the standalone build.

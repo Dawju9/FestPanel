@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { requireAuth } from '../../../../lib/auth';
-import AdminLayout from '../../../../components/AdminLayout';
+import { requireAuth } from '../../../lib/auth';
+import AdminLayout from '../../../components/AdminLayout';
 
 export async function getServerSideProps(context) { return requireAuth(context); }
 
@@ -27,9 +27,9 @@ export default function CrawlerOverview() {
     fetchData();
   }, []);
 
-  if (loading) return <AdminLayout>Loading crawler data...</AdminLayout>;
-  if (error) return <AdminLayout>Error: {error}</AdminLayout>;
-  if (!data) return <AdminLayout>No crawler data available.</AdminLayout>;
+  if (loading) { return <AdminLayout>Loading crawler data...</AdminLayout>; }
+  if (error) { return <AdminLayout>Error: {error}</AdminLayout>; }
+  if (!data) { return <AdminLayout>No crawler data available.</AdminLayout>; }
 
   return (
     <AdminLayout>
@@ -47,7 +47,7 @@ export default function CrawlerOverview() {
             borderRadius: '12px',
             padding: '24px',
             boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
-            borderLeft: `4px solid #D32F2F`, // Use a primary color
+            borderLeft: '4px solid #D32F2F', // Use a primary color
           }}>
             <p style={{ fontSize: '13px', color: '#666' }}>{key.replace(/([A-Z])/g, ' $1').toUpperCase()}</p>
             <p style={{ fontSize: '28px', fontWeight: 800, color: '#1a1a1a' }}>{value}</p>

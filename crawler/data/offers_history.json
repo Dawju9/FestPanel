@@ -11,11 +11,19 @@
     "url": "",
     "first_seen": "2026-06-05T23:03:59.200290",
     "last_seen": "2026-06-05T23:03:59.200290",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -33,7 +41,7 @@
     "url": "",
     "first_seen": "2026-06-05T23:03:59.200290",
     "last_seen": "2026-06-05T23:03:59.200290",
-    "age_group": "outdated",
+    "age_group": "old",
     "status_history": [
       {
         "date": "2026-06-05",
@@ -42,6 +50,10 @@
       {
         "date": "2026-06-05",
         "group": "outdated"
+      },
+      {
+        "date": "2026-06-09",
+        "group": "old"
       }
     ],
     "notified": true,
@@ -115,11 +127,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.120657+00:00",
     "last_seen": "2026-06-05T23:16:31.745737+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -137,11 +157,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.121463+00:00",
     "last_seen": "2026-06-05T23:16:31.748624+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -159,11 +187,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.122365+00:00",
     "last_seen": "2026-06-05T23:16:31.750143+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -181,11 +217,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.122962+00:00",
     "last_seen": "2026-06-05T23:16:31.751634+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -203,11 +247,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.124195+00:00",
     "last_seen": "2026-06-05T23:16:31.754046+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -225,11 +277,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.125016+00:00",
     "last_seen": "2026-06-05T23:16:31.755585+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -247,11 +307,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.125521+00:00",
     "last_seen": "2026-06-05T23:16:31.757525+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -269,11 +337,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.125996+00:00",
     "last_seen": "2026-06-05T23:16:31.759252+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -291,11 +367,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.126597+00:00",
     "last_seen": "2026-06-05T23:16:31.760839+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -313,11 +397,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.127141+00:00",
     "last_seen": "2026-06-05T23:16:31.762258+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -335,11 +427,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.127867+00:00",
     "last_seen": "2026-06-05T23:16:31.764192+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -357,11 +457,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.128525+00:00",
     "last_seen": "2026-06-05T23:16:31.766221+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -379,11 +487,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.129064+00:00",
     "last_seen": "2026-06-05T23:16:31.767868+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -401,11 +517,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.129914+00:00",
     "last_seen": "2026-06-05T23:16:31.769983+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -423,11 +547,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.130911+00:00",
     "last_seen": "2026-06-05T23:16:31.772073+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -445,11 +577,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.132268+00:00",
     "last_seen": "2026-06-05T23:16:31.774155+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -467,11 +607,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.133700+00:00",
     "last_seen": "2026-06-05T23:16:31.776285+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -489,11 +637,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.134470+00:00",
     "last_seen": "2026-06-05T23:16:31.778274+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -511,11 +667,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.135203+00:00",
     "last_seen": "2026-06-05T23:16:31.780507+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -533,11 +697,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.135874+00:00",
     "last_seen": "2026-06-05T23:16:31.782592+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -555,11 +727,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.136481+00:00",
     "last_seen": "2026-06-05T23:16:31.784835+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -577,11 +757,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.137191+00:00",
     "last_seen": "2026-06-05T23:16:31.786887+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -599,11 +783,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.138195+00:00",
     "last_seen": "2026-06-05T23:16:31.789561+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -621,11 +809,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.138969+00:00",
     "last_seen": "2026-06-05T23:16:31.791686+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -643,11 +835,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.139850+00:00",
     "last_seen": "2026-06-05T23:16:31.793777+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -665,11 +861,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.140561+00:00",
     "last_seen": "2026-06-05T23:16:31.796020+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -687,11 +887,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.142441+00:00",
     "last_seen": "2026-06-05T23:16:31.798155+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -709,11 +913,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.143391+00:00",
     "last_seen": "2026-06-05T23:16:31.801036+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -731,11 +939,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.144147+00:00",
     "last_seen": "2026-06-05T23:16:31.803249+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -753,11 +965,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.145047+00:00",
     "last_seen": "2026-06-05T23:16:31.804905+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -775,11 +991,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.145941+00:00",
     "last_seen": "2026-06-05T23:16:31.806592+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -797,11 +1017,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.147400+00:00",
     "last_seen": "2026-06-05T23:16:31.808328+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -819,11 +1043,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.148307+00:00",
     "last_seen": "2026-06-05T23:16:31.810644+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -841,11 +1069,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.149440+00:00",
     "last_seen": "2026-06-05T23:16:31.812596+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -863,11 +1095,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.150474+00:00",
     "last_seen": "2026-06-05T23:16:31.814942+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -885,11 +1121,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.151410+00:00",
     "last_seen": "2026-06-05T23:16:31.816943+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -907,11 +1147,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.152307+00:00",
     "last_seen": "2026-06-05T23:16:31.819457+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -929,11 +1173,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.154277+00:00",
     "last_seen": "2026-06-05T23:16:31.821102+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -951,11 +1199,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.155870+00:00",
     "last_seen": "2026-06-05T23:16:31.823243+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -973,11 +1225,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.157166+00:00",
     "last_seen": "2026-06-05T23:16:31.824695+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -995,11 +1251,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.158242+00:00",
     "last_seen": "2026-06-05T23:16:31.826447+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1017,11 +1277,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.159293+00:00",
     "last_seen": "2026-06-05T23:16:31.828081+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1039,11 +1303,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.160485+00:00",
     "last_seen": "2026-06-05T23:16:31.829685+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1061,11 +1329,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.161884+00:00",
     "last_seen": "2026-06-05T23:16:31.831345+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1083,11 +1355,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.163324+00:00",
     "last_seen": "2026-06-05T23:16:31.834296+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1105,11 +1381,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.164709+00:00",
     "last_seen": "2026-06-05T23:16:31.836286+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1127,11 +1407,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.165909+00:00",
     "last_seen": "2026-06-05T23:16:31.837835+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1149,11 +1433,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-ukladanie-paneli-ni1",
     "first_seen": "2026-06-05T23:04:33.167110+00:00",
     "last_seen": "2026-06-05T23:16:31.839563+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-09",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1171,11 +1459,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.840671+00:00",
     "last_seen": "2026-06-05T23:16:33.327272+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-08",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1193,11 +1489,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.842373+00:00",
     "last_seen": "2026-06-05T23:16:33.329896+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1215,11 +1519,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.843653+00:00",
     "last_seen": "2026-06-05T23:16:33.332146+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1237,11 +1549,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.844835+00:00",
     "last_seen": "2026-06-05T23:16:33.334293+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1259,11 +1579,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.846087+00:00",
     "last_seen": "2026-06-05T23:16:33.336537+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1281,11 +1609,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.848001+00:00",
     "last_seen": "2026-06-05T23:16:33.338696+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1303,11 +1639,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.849327+00:00",
     "last_seen": "2026-06-05T23:16:33.340875+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1325,11 +1669,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.850737+00:00",
     "last_seen": "2026-06-05T23:16:33.343007+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1347,11 +1699,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.852046+00:00",
     "last_seen": "2026-06-05T23:16:33.345200+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1369,11 +1729,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.853350+00:00",
     "last_seen": "2026-06-05T23:16:33.347615+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1391,11 +1759,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.854751+00:00",
     "last_seen": "2026-06-05T23:16:33.350012+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1413,11 +1789,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.856385+00:00",
     "last_seen": "2026-06-05T23:16:33.352217+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1435,11 +1819,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.857719+00:00",
     "last_seen": "2026-06-05T23:16:33.354390+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1457,11 +1849,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.859023+00:00",
     "last_seen": "2026-06-05T23:16:33.356528+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1479,11 +1879,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.860469+00:00",
     "last_seen": "2026-06-05T23:16:33.358705+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1501,11 +1909,19 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.862006+00:00",
     "last_seen": "2026-06-05T23:16:33.360851+00:00",
-    "age_group": "fresh",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "fresh"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1523,11 +1939,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.863520+00:00",
     "last_seen": "2026-06-05T23:16:33.363018+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1545,11 +1965,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.865058+00:00",
     "last_seen": "2026-06-05T23:16:33.365683+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1567,11 +1991,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.866628+00:00",
     "last_seen": "2026-06-05T23:16:33.367937+00:00",
-    "age_group": "new",
+    "age_group": "current",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "new"
+      },
+      {
+        "date": "2026-06-06",
+        "group": "current"
       }
     ],
     "notified": true,
@@ -1589,11 +2017,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.868357+00:00",
     "last_seen": "2026-06-05T23:16:33.370274+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1611,11 +2043,15 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.869830+00:00",
     "last_seen": "2026-06-05T23:16:33.372405+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
         "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
       }
     ],
     "notified": true,
@@ -1633,10 +2069,1682 @@
     "url": "https://www.oferteo.pl/zlecenia-na-cyklinowanie-ni1",
     "first_seen": "2026-06-05T23:04:34.871546+00:00",
     "last_seen": "2026-06-05T23:16:33.374551+00:00",
-    "age_group": "current",
+    "age_group": "outdated",
     "status_history": [
       {
         "date": "2026-06-05",
+        "group": "current"
+      },
+      {
+        "date": "2026-06-10",
+        "group": "outdated"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17666427": {
+    "id": "17666427",
+    "title": "Zlecę układanie paneli drewnianych, 26-50m²",
+    "date": "2026-06-06",
+    "city": "Tarnów",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17666427",
+    "first_seen": "2026-06-06T08:50:37.420557+00:00",
+    "last_seen": "2026-06-06T08:50:37.420557+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-06",
+        "group": "fresh"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-08",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17666278": {
+    "id": "17666278",
+    "title": "Dam zlecenie na montaż paneli PCV, 101-250m²",
+    "date": "2026-06-06",
+    "city": "Józefin",
+    "metrage": "101-250m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17666278",
+    "first_seen": "2026-06-06T08:50:37.424086+00:00",
+    "last_seen": "2026-06-06T08:50:37.424086+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-06",
+        "group": "fresh"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-08",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17665884": {
+    "id": "17665884",
+    "title": "Dam zlecenie na montaż paneli PCV, 26-50m²",
+    "date": "2026-06-06",
+    "city": "Jejkowice",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17665884",
+    "first_seen": "2026-06-06T08:50:37.425878+00:00",
+    "last_seen": "2026-06-06T08:50:37.425878+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-06",
+        "group": "fresh"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-08",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17666215": {
+    "id": "17666215",
+    "title": "Zapytanie o cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-06",
+    "city": "Kołobrzeg",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17666215",
+    "first_seen": "2026-06-06T08:50:39.095109+00:00",
+    "last_seen": "2026-06-06T08:50:39.095109+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-06",
+        "group": "fresh"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-08",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17666089": {
+    "id": "17666089",
+    "title": "Dam zlecenie na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-06",
+    "city": "Zaprężyn",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17666089",
+    "first_seen": "2026-06-06T08:50:39.097290+00:00",
+    "last_seen": "2026-06-06T08:50:39.097290+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-06",
+        "group": "fresh"
+      },
+      {
+        "date": "2026-06-07",
+        "group": "new"
+      },
+      {
+        "date": "2026-06-08",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17683106": {
+    "id": "17683106",
+    "title": "Dam zlecenie na montaż paneli laminowanych, 51-100m²",
+    "date": "2026-06-09",
+    "city": "Skierniewice",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17683106",
+    "first_seen": "2026-06-10T03:52:56.553659+00:00",
+    "last_seen": "2026-06-10T03:52:56.553659+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682799": {
+    "id": "17682799",
+    "title": "Zapytanie o układanie paneli laminowanych, 70m²",
+    "date": "2026-06-09",
+    "city": "Wysoka",
+    "metrage": "70m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17682799",
+    "first_seen": "2026-06-10T03:52:56.556919+00:00",
+    "last_seen": "2026-06-10T03:52:56.556919+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682770": {
+    "id": "17682770",
+    "title": "Zapytanie o układanie paneli laminowanych, 60m²",
+    "date": "2026-06-09",
+    "city": "Ciemiętniki",
+    "metrage": "60m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17682770",
+    "first_seen": "2026-06-10T03:52:56.560014+00:00",
+    "last_seen": "2026-06-10T03:52:56.560014+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682711": {
+    "id": "17682711",
+    "title": "Zapytanie o układanie paneli laminowanych, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Poznań",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17682711",
+    "first_seen": "2026-06-10T03:52:56.562784+00:00",
+    "last_seen": "2026-06-10T03:52:56.562784+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682702": {
+    "id": "17682702",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 26-50m²,Poznań",
+    "date": "2026-06-09",
+    "city": "Poznań",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17682702",
+    "first_seen": "2026-06-10T03:52:56.566159+00:00",
+    "last_seen": "2026-06-10T03:52:56.566159+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682472": {
+    "id": "17682472",
+    "title": "Zapytanie o układanie paneli laminowanych, 16m²",
+    "date": "2026-06-09",
+    "city": "Wałbrzych",
+    "metrage": "16m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17682472",
+    "first_seen": "2026-06-10T03:52:56.569038+00:00",
+    "last_seen": "2026-06-10T03:52:56.569038+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682020": {
+    "id": "17682020",
+    "title": "Szukam specjalisty od montażu paneli drewnianych, do 25m²,Puławy",
+    "date": "2026-06-09",
+    "city": "Puławy",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17682020",
+    "first_seen": "2026-06-10T03:52:56.572083+00:00",
+    "last_seen": "2026-06-10T03:52:56.572083+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17681888": {
+    "id": "17681888",
+    "title": "Dam zlecenie na montaż paneli PCV, 55m²",
+    "date": "2026-06-09",
+    "city": "Budy Józefowskie",
+    "metrage": "55m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17681888",
+    "first_seen": "2026-06-10T03:52:56.575069+00:00",
+    "last_seen": "2026-06-10T03:52:56.575069+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17681403": {
+    "id": "17681403",
+    "title": "Dam zlecenie na montaż paneli PCV, 15m²",
+    "date": "2026-06-09",
+    "city": "Wrocław",
+    "metrage": "15m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17681403",
+    "first_seen": "2026-06-10T03:52:56.578010+00:00",
+    "last_seen": "2026-06-10T03:52:56.578010+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17681498": {
+    "id": "17681498",
+    "title": "Zlecę układanie paneli PCV, 300m²",
+    "date": "2026-06-09",
+    "city": "Łódź",
+    "metrage": "300m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17681498",
+    "first_seen": "2026-06-10T03:52:56.580915+00:00",
+    "last_seen": "2026-06-10T03:52:56.580915+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17681487": {
+    "id": "17681487",
+    "title": "Szukam specjalisty od montażu paneli PCV, 300m²,Warszawa",
+    "date": "2026-06-09",
+    "city": "Warszawa",
+    "metrage": "300m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17681487",
+    "first_seen": "2026-06-10T03:52:56.583866+00:00",
+    "last_seen": "2026-06-10T03:52:56.583866+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17681317": {
+    "id": "17681317",
+    "title": "Zlecenie na ułożenie paneli PCV, 300m²,Baniocha",
+    "date": "2026-06-09",
+    "city": "Baniocha",
+    "metrage": "300m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17681317",
+    "first_seen": "2026-06-10T03:52:56.586831+00:00",
+    "last_seen": "2026-06-10T03:52:56.586831+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17680083": {
+    "id": "17680083",
+    "title": "Zlecę układanie paneli laminowanych, 51-100m²",
+    "date": "2026-06-09",
+    "city": "Lubin",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17680083",
+    "first_seen": "2026-06-10T03:52:56.589783+00:00",
+    "last_seen": "2026-06-10T03:52:56.589783+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679281": {
+    "id": "17679281",
+    "title": "Zlecę układanie paneli laminowanych, do 25m²",
+    "date": "2026-06-09",
+    "city": "Ruda Śląska",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17679281",
+    "first_seen": "2026-06-10T03:52:56.592913+00:00",
+    "last_seen": "2026-06-10T03:52:56.592913+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679306": {
+    "id": "17679306",
+    "title": "Zlecenie na ułożenie paneli PCV, 51-100m²,Różnowo",
+    "date": "2026-06-09",
+    "city": "Różnowo",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17679306",
+    "first_seen": "2026-06-10T03:52:56.596057+00:00",
+    "last_seen": "2026-06-10T03:52:56.596057+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679150": {
+    "id": "17679150",
+    "title": "Zlecę układanie paneli laminowanych, do 25m²",
+    "date": "2026-06-09",
+    "city": "Ruda Śląska",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17679150",
+    "first_seen": "2026-06-10T03:52:56.599396+00:00",
+    "last_seen": "2026-06-10T03:52:56.599396+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679195": {
+    "id": "17679195",
+    "title": "Zlecenie na ułożenie paneli drewnianych, 101-250m²,Łazy",
+    "date": "2026-06-09",
+    "city": "Łazy",
+    "metrage": "101-250m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17679195",
+    "first_seen": "2026-06-10T03:52:56.602744+00:00",
+    "last_seen": "2026-06-10T03:52:56.602744+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679072": {
+    "id": "17679072",
+    "title": "Zlecę układanie paneli PCV, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Warszawa",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17679072",
+    "first_seen": "2026-06-10T03:52:56.605989+00:00",
+    "last_seen": "2026-06-10T03:52:56.605989+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17678132": {
+    "id": "17678132",
+    "title": "Zapytanie o układanie paneli PCV, 7m²",
+    "date": "2026-06-09",
+    "city": "Opole",
+    "metrage": "7m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17678132",
+    "first_seen": "2026-06-10T03:52:56.609174+00:00",
+    "last_seen": "2026-06-10T03:52:56.609174+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17678131": {
+    "id": "17678131",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 108m²,Mirocin Dolny",
+    "date": "2026-06-09",
+    "city": "Mirocin Dolny",
+    "metrage": "108m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17678131",
+    "first_seen": "2026-06-10T03:52:56.612306+00:00",
+    "last_seen": "2026-06-10T03:52:56.612306+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677446": {
+    "id": "17677446",
+    "title": "Zapytanie o układanie paneli laminowanych, 51-100m²",
+    "date": "2026-06-08",
+    "city": "Busko-Zdrój",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17677446",
+    "first_seen": "2026-06-10T03:52:56.615607+00:00",
+    "last_seen": "2026-06-10T03:52:56.615607+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677324": {
+    "id": "17677324",
+    "title": "Szukam specjalisty od montażu paneli PCV, 26-50m²,Gdańsk",
+    "date": "2026-06-08",
+    "city": "Gdańsk",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17677324",
+    "first_seen": "2026-06-10T03:52:56.619971+00:00",
+    "last_seen": "2026-06-10T03:52:56.619971+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677315": {
+    "id": "17677315",
+    "title": "Zlecę układanie paneli PCV, do 25m²",
+    "date": "2026-06-08",
+    "city": "Lębork",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17677315",
+    "first_seen": "2026-06-10T03:52:56.623426+00:00",
+    "last_seen": "2026-06-10T03:52:56.623426+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677119": {
+    "id": "17677119",
+    "title": "Dam zlecenie na montaż paneli PCV, 60m²",
+    "date": "2026-06-08",
+    "city": "Kraków",
+    "metrage": "60m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17677119",
+    "first_seen": "2026-06-10T03:52:56.628126+00:00",
+    "last_seen": "2026-06-10T03:52:56.628126+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676765": {
+    "id": "17676765",
+    "title": "Zlecenie na ułożenie paneli PCV, do 25m²,Lębork",
+    "date": "2026-06-08",
+    "city": "Lębork",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17676765",
+    "first_seen": "2026-06-10T03:52:56.631416+00:00",
+    "last_seen": "2026-06-10T03:52:56.631416+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676739": {
+    "id": "17676739",
+    "title": "Zapytanie o układanie paneli PCV, do 25m²",
+    "date": "2026-06-08",
+    "city": "Bydgoszcz",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17676739",
+    "first_seen": "2026-06-10T03:52:56.634412+00:00",
+    "last_seen": "2026-06-10T03:52:56.634412+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676265": {
+    "id": "17676265",
+    "title": "Zlecę układanie paneli PCV, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Hrubieszów",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17676265",
+    "first_seen": "2026-06-10T03:52:56.637263+00:00",
+    "last_seen": "2026-06-10T03:52:56.637263+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676268": {
+    "id": "17676268",
+    "title": "Dam zlecenie na montaż paneli PCV, 51-100m²",
+    "date": "2026-06-08",
+    "city": "Szczecin",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17676268",
+    "first_seen": "2026-06-10T03:52:56.639644+00:00",
+    "last_seen": "2026-06-10T03:52:56.639644+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676025": {
+    "id": "17676025",
+    "title": "Zlecę układanie paneli PCV, 51-100m²",
+    "date": "2026-06-08",
+    "city": "Gdańsk",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17676025",
+    "first_seen": "2026-06-10T03:52:56.642123+00:00",
+    "last_seen": "2026-06-10T03:52:56.642123+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17675698": {
+    "id": "17675698",
+    "title": "Poszukuję ekipy do położenia paneli, 15m²",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "15m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17675698",
+    "first_seen": "2026-06-10T03:52:56.644877+00:00",
+    "last_seen": "2026-06-10T03:52:56.644877+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17675795": {
+    "id": "17675795",
+    "title": "Zlecenie na ułożenie paneli PCV, 60m²,Kraków",
+    "date": "2026-06-08",
+    "city": "Kraków",
+    "metrage": "60m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17675795",
+    "first_seen": "2026-06-10T03:52:56.647497+00:00",
+    "last_seen": "2026-06-10T03:52:56.647497+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17675034": {
+    "id": "17675034",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, do 25m²,Szczecin",
+    "date": "2026-06-08",
+    "city": "Szczecin",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17675034",
+    "first_seen": "2026-06-10T03:52:56.650042+00:00",
+    "last_seen": "2026-06-10T03:52:56.650042+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674996": {
+    "id": "17674996",
+    "title": "Dam zlecenie na montaż paneli PCV, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Koszalin",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17674996",
+    "first_seen": "2026-06-10T03:52:56.652552+00:00",
+    "last_seen": "2026-06-10T03:52:56.652552+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674881": {
+    "id": "17674881",
+    "title": "Zlecę układanie paneli PCV, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Żary",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17674881",
+    "first_seen": "2026-06-10T03:52:56.655246+00:00",
+    "last_seen": "2026-06-10T03:52:56.655246+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674839": {
+    "id": "17674839",
+    "title": "Zlecę układanie paneli, 51-100m²",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17674839",
+    "first_seen": "2026-06-10T03:52:56.657711+00:00",
+    "last_seen": "2026-06-10T03:52:56.657711+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674821": {
+    "id": "17674821",
+    "title": "Zlecę układanie paneli, 51-100m²",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17674821",
+    "first_seen": "2026-06-10T03:52:56.660389+00:00",
+    "last_seen": "2026-06-10T03:52:56.660389+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674694": {
+    "id": "17674694",
+    "title": "Potrzebuję ekipy do ułożenia paneli, 5m²",
+    "date": "2026-06-08",
+    "city": "Puławy",
+    "metrage": "5m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17674694",
+    "first_seen": "2026-06-10T03:52:56.663112+00:00",
+    "last_seen": "2026-06-10T03:52:56.663112+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673793": {
+    "id": "17673793",
+    "title": "Zlecenie na ułożenie paneli PCV, 32m²,Warszawa",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "32m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17673793",
+    "first_seen": "2026-06-10T03:52:56.666194+00:00",
+    "last_seen": "2026-06-10T03:52:56.666194+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673636": {
+    "id": "17673636",
+    "title": "Zlecę układanie paneli PCV, 40m²",
+    "date": "2026-06-08",
+    "city": "Ruda Śląska",
+    "metrage": "40m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17673636",
+    "first_seen": "2026-06-10T03:52:56.669717+00:00",
+    "last_seen": "2026-06-10T03:52:56.669717+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673371": {
+    "id": "17673371",
+    "title": "Dam zlecenie na montaż paneli PCV, 101-250m²",
+    "date": "2026-06-08",
+    "city": "Wieliczka",
+    "metrage": "101-250m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17673371",
+    "first_seen": "2026-06-10T03:52:56.672883+00:00",
+    "last_seen": "2026-06-10T03:52:56.672883+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673289": {
+    "id": "17673289",
+    "title": "Dam zlecenie na montaż paneli PCV, 10m²",
+    "date": "2026-06-08",
+    "city": "Częstochowa",
+    "metrage": "10m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17673289",
+    "first_seen": "2026-06-10T03:52:56.675849+00:00",
+    "last_seen": "2026-06-10T03:52:56.675849+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673214": {
+    "id": "17673214",
+    "title": "Zlecenie na ułożenie paneli PCV, 2900m²,Chełmno",
+    "date": "2026-06-08",
+    "city": "Chełm",
+    "metrage": "2900m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17673214",
+    "first_seen": "2026-06-10T03:52:56.678894+00:00",
+    "last_seen": "2026-06-10T03:52:56.678894+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673121": {
+    "id": "17673121",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 51-100m²,Księżyno",
+    "date": "2026-06-08",
+    "city": "Księżyno",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17673121",
+    "first_seen": "2026-06-10T03:52:56.681716+00:00",
+    "last_seen": "2026-06-10T03:52:56.681716+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17672660": {
+    "id": "17672660",
+    "title": "Szukam specjalisty od montażu paneli laminowanych, 51-100m²,Duszniki",
+    "date": "2026-06-08",
+    "city": "Duszniki",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17672660",
+    "first_seen": "2026-06-10T03:52:56.684338+00:00",
+    "last_seen": "2026-06-10T03:52:56.684338+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17672557": {
+    "id": "17672557",
+    "title": "Szukam specjalisty od montażu paneli PCV, do 25m²,Katowice",
+    "date": "2026-06-08",
+    "city": "Katowice",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Układanie paneli",
+    "url": "https://www.oferteo.pl/zlecenie/17672557",
+    "first_seen": "2026-06-10T03:52:56.687377+00:00",
+    "last_seen": "2026-06-10T03:52:56.687377+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682762": {
+    "id": "17682762",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 6m²",
+    "date": "2026-06-09",
+    "city": "Pabianice",
+    "metrage": "6m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17682762",
+    "first_seen": "2026-06-10T03:52:58.169563+00:00",
+    "last_seen": "2026-06-10T03:52:58.169563+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682557": {
+    "id": "17682557",
+    "title": "Dam zlecenie na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-09",
+    "city": "Wrocław",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17682557",
+    "first_seen": "2026-06-10T03:52:58.172748+00:00",
+    "last_seen": "2026-06-10T03:52:58.172748+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682363": {
+    "id": "17682363",
+    "title": "Zlecę cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Bydgoszcz",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17682363",
+    "first_seen": "2026-06-10T03:52:58.175490+00:00",
+    "last_seen": "2026-06-10T03:52:58.175490+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17682229": {
+    "id": "17682229",
+    "title": "Szukam ekipy na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-09",
+    "city": "Staszów",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17682229",
+    "first_seen": "2026-06-10T03:52:58.192602+00:00",
+    "last_seen": "2026-06-10T03:52:58.192602+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17680644": {
+    "id": "17680644",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Łódź",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17680644",
+    "first_seen": "2026-06-10T03:52:58.202333+00:00",
+    "last_seen": "2026-06-10T03:52:58.202333+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679330": {
+    "id": "17679330",
+    "title": "Zapytanie o cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-09",
+    "city": "Bydgoszcz",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17679330",
+    "first_seen": "2026-06-10T03:52:58.207035+00:00",
+    "last_seen": "2026-06-10T03:52:58.207035+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17679222": {
+    "id": "17679222",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 22m²",
+    "date": "2026-06-09",
+    "city": "Gdynia",
+    "metrage": "22m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17679222",
+    "first_seen": "2026-06-10T03:52:58.211868+00:00",
+    "last_seen": "2026-06-10T03:52:58.211868+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17678740": {
+    "id": "17678740",
+    "title": "Dam zlecenie na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-09",
+    "city": "Kozienice",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17678740",
+    "first_seen": "2026-06-10T03:52:58.216340+00:00",
+    "last_seen": "2026-06-10T03:52:58.216340+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17678355": {
+    "id": "17678355",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Lublin",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17678355",
+    "first_seen": "2026-06-10T03:52:58.220863+00:00",
+    "last_seen": "2026-06-10T03:52:58.220863+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677989": {
+    "id": "17677989",
+    "title": "Szukam ekipy na cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-09",
+    "city": "Wrocław",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17677989",
+    "first_seen": "2026-06-10T03:52:58.225669+00:00",
+    "last_seen": "2026-06-10T03:52:58.225669+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677995": {
+    "id": "17677995",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Rumia",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17677995",
+    "first_seen": "2026-06-10T03:52:58.231961+00:00",
+    "last_seen": "2026-06-10T03:52:58.231961+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677953": {
+    "id": "17677953",
+    "title": "Zlecę cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-09",
+    "city": "Leszno",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17677953",
+    "first_seen": "2026-06-10T03:52:58.240943+00:00",
+    "last_seen": "2026-06-10T03:52:58.240943+00:00",
+    "age_group": "new",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "new"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677631": {
+    "id": "17677631",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Kraków",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17677631",
+    "first_seen": "2026-06-10T03:52:58.245526+00:00",
+    "last_seen": "2026-06-10T03:52:58.245526+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677493": {
+    "id": "17677493",
+    "title": "Zlecę cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Koło",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17677493",
+    "first_seen": "2026-06-10T03:52:58.249936+00:00",
+    "last_seen": "2026-06-10T03:52:58.249936+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17677348": {
+    "id": "17677348",
+    "title": "Szukam ekipy na cyklinowanie podłogi, 51-100m²",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "51-100m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17677348",
+    "first_seen": "2026-06-10T03:52:58.261042+00:00",
+    "last_seen": "2026-06-10T03:52:58.261042+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676889": {
+    "id": "17676889",
+    "title": "Zapytanie o cyklinowanie podłogi, 21m²",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "21m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17676889",
+    "first_seen": "2026-06-10T03:52:58.264364+00:00",
+    "last_seen": "2026-06-10T03:52:58.264364+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17676508": {
+    "id": "17676508",
+    "title": "Zapytanie o cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Piaseczno",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17676508",
+    "first_seen": "2026-06-10T03:52:58.268076+00:00",
+    "last_seen": "2026-06-10T03:52:58.268076+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17675615": {
+    "id": "17675615",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Olkusz",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17675615",
+    "first_seen": "2026-06-10T03:52:58.271937+00:00",
+    "last_seen": "2026-06-10T03:52:58.271937+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17675227": {
+    "id": "17675227",
+    "title": "Zapytanie o cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-08",
+    "city": "Lublin",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17675227",
+    "first_seen": "2026-06-10T03:52:58.275549+00:00",
+    "last_seen": "2026-06-10T03:52:58.275549+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674716": {
+    "id": "17674716",
+    "title": "Zapytanie o cyklinowanie podłogi, do 25m²",
+    "date": "2026-06-08",
+    "city": "Ostrow",
+    "metrage": "25m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17674716",
+    "first_seen": "2026-06-10T03:52:58.279086+00:00",
+    "last_seen": "2026-06-10T03:52:58.279086+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674225": {
+    "id": "17674225",
+    "title": "Zlecę cyklinowanie podłogi, 13m²",
+    "date": "2026-06-08",
+    "city": "Warszawa",
+    "metrage": "13m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17674225",
+    "first_seen": "2026-06-10T03:52:58.289362+00:00",
+    "last_seen": "2026-06-10T03:52:58.289362+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17674101": {
+    "id": "17674101",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 52m²",
+    "date": "2026-06-08",
+    "city": "Kalisz",
+    "metrage": "52m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17674101",
+    "first_seen": "2026-06-10T03:52:58.293261+00:00",
+    "last_seen": "2026-06-10T03:52:58.293261+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673802": {
+    "id": "17673802",
+    "title": "Zlecę cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Mrągowo",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17673802",
+    "first_seen": "2026-06-10T03:52:58.301974+00:00",
+    "last_seen": "2026-06-10T03:52:58.301974+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
+        "group": "current"
+      }
+    ],
+    "notified": true,
+    "active": true
+  },
+  "17673286": {
+    "id": "17673286",
+    "title": "Dam zlecenie na cyklinowanie podłogi, 26-50m²",
+    "date": "2026-06-08",
+    "city": "Mińsk Mazowiecki",
+    "metrage": "26-50m2",
+    "price": "",
+    "source": "oferteo.pl",
+    "query": "Cyklinowanie podłóg",
+    "url": "https://www.oferteo.pl/zlecenie/17673286",
+    "first_seen": "2026-06-10T03:52:58.305590+00:00",
+    "last_seen": "2026-06-10T03:52:58.305590+00:00",
+    "age_group": "current",
+    "status_history": [
+      {
+        "date": "2026-06-10",
         "group": "current"
       }
     ],

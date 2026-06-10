@@ -3,25 +3,29 @@ import { SessionProvider } from 'next-auth/react';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from '../context/ThemeContext';
-import { motion, AnimatePresence } from 'framer-motion';
+import { ToastProvider } from '../context/ToastContext';
+import dynamic from 'next/dynamic';
+import { useAnalytics } from '../lib/analytics';
 
-export default function App({ Component, pageProps: { session, ...pageProps }, router }) {
+const ThemeSwitcher = dynamic(() => import('../components/ThemeSwitcher'), { ssr: false });
+
+function AnalyticsWrapper({ children }) {
+  useAnalytics();
+  return <>{children}</>;
+}
+
+export default function App({ Component, pageProps: { session, ...pageProps } }) {
   return (
     <SessionProvider session={session}>
       <ThemeProvider>
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={router.route}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-          >
+        <ToastProvider>
+          <AnalyticsWrapper>
             <Component {...pageProps} />
-          </motion.div>
-        </AnimatePresence>
-        <Analytics />
-        <SpeedInsights />
+          </AnalyticsWrapper>
+          <ThemeSwitcher />
+          <Analytics />
+          <SpeedInsights />
+        </ToastProvider>
       </ThemeProvider>
     </SessionProvider>
   );

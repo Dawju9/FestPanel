@@ -16,7 +16,7 @@ export default async function handler(req, res) {
       const offersData = await fs.readFile(offersHistoryPath, 'utf8');
       offers = JSON.parse(offersData);
     } catch (e) {
-      console.warn("No offers history found:", e.message);
+      console.warn('No offers history found:', e.message);
     }
 
     let sources = [];
@@ -24,7 +24,7 @@ export default async function handler(req, res) {
       const sourcesData = await fs.readFile(sourcesPath, 'utf8');
       sources = JSON.parse(sourcesData);
     } catch (e) {
-      console.warn("No sources found:", e.message);
+      console.warn('No sources found:', e.message);
     }
 
     // Basic analysis (can be expanded)
@@ -45,6 +45,7 @@ export default async function handler(req, res) {
       sources,
     });
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.error('Error fetching crawler data:', error);
     res.status(500).json({ message: 'Internal Server Error' });
   }

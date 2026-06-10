@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   try {
     const data = await fs.readFile(filePath, 'utf8');
     notes = JSON.parse(data);
-  } catch (e) { /* init empty */ }
+  } catch { /* init empty */ }
 
   if (req.method === 'GET') {
     return res.status(200).json(notes);

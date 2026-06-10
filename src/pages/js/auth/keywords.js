@@ -98,7 +98,7 @@ export default function Keywords() {
           borderRadius: '12px',
           boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
           overflow: 'hidden',
-        }}>
+        }} className="admin-table-wrap">
           <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '14px' }}>
             <thead>
               <tr style={{ background: '#f9f9f9', textAlign: 'left' }}>

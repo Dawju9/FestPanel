@@ -59,7 +59,7 @@ async function main() {
   writeFileSync(envPath, envContent.trim() + '\n');
   console.log(`\n✅ .env updated successfully at: ${envPath}`);
   console.log(`   Username: ${username}`);
-  console.log(`   Login at: http://localhost:3000/js/auth/login\n`);
+  console.log(`   Login at: http://localhost:3000/auth\n`);
   rl.close();
 }
 

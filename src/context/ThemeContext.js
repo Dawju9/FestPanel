@@ -43,6 +43,18 @@ export const THEMES = [
     description: 'Elegancki fiolet — wyrozniaj sie z tlumu',
     swatch: ['#6A1B9A', '#1F0F2A', '#FAF6FB'],
   },
+  {
+    id: 'gold_navy',
+    name: 'Gold & Navy',
+    description: 'Elegancki granat i złoto — profesjonalny i luksusowy',
+    swatch: ['#C5A059', '#0B1220', '#E2E8F0'],
+  },
+  ];
+    id: 'gold_navy',
+    name: 'Zloto i Granat',
+    description: 'Eleganckie zloto na tle glebokiego granatu',
+    swatch: ['#C5A059', '#0A192F', '#E6F1FF'],
+  },
 ];
 
 const VALID_THEME_IDS = THEMES.map(t => t.id);

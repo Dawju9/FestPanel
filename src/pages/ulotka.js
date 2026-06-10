@@ -1,11 +1,16 @@
 import { useState } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import { Phone, Mail, ArrowLeftRight } from 'lucide-react';
+import { trackEvent } from '../lib/analytics';
 
 export default function Ulotka() {
   const [isBack, setIsBack] = useState(false);
 
-  const toggleView = () => setIsBack(!isBack);
+  const toggleView = () => {
+    setIsBack(!isBack);
+    trackEvent('ulotkaTouch', 'FlipFlyer');
+  };
 
   return (
     <div className="flyer-page">
@@ -17,10 +22,10 @@ export default function Ulotka() {
       <div className="flyer-container">
         <div className={`flyer-card ${isBack ? 'is-flipped' : ''}`} onClick={toggleView}>
           <div className="flyer-face flyer-front">
-            <img src="/images/flyer-front.png" alt="FestPanel Ulotka - Przód" />
+            <img src="/images/flyer-front.png" alt="FestPanel Ulotka - Przód" width="100%" height="100%" />
           </div>
           <div className="flyer-face flyer-back">
-            <img src="/images/flyer-back.png" alt="FestPanel Ulotka - Tył" />
+            <img src="/images/flyer-back.png" alt="FestPanel Ulotka - Tył" width="100%" height="100%" />
           </div>
         </div>
 
@@ -50,13 +55,14 @@ export default function Ulotka() {
       <style jsx>{`
         .flyer-page {
           min-height: 100vh;
-          background: #1a1a1a;
+          background: var(--bg-color);
           display: flex;
           flex-direction: column;
           align-items: center;
           padding: 20px;
-          color: white;
+          color: var(--color-text);
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          transition: background-color 0.5s ease;
         }
 
         .flyer-container {
@@ -77,7 +83,7 @@ export default function Ulotka() {
           transform-style: preserve-3d;
           transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
           cursor: pointer;
-          box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+          box-shadow: 0 20px 50px rgba(0,0,0,0.3);
         }
 
         .flyer-card.is-flipped {
@@ -93,9 +99,10 @@ export default function Ulotka() {
           display: flex;
           align-items: center;
           justify-content: center;
-          background: white;
+          background: var(--surface, var(--bg-color));
           border-radius: 12px;
           overflow: hidden;
+          border: 1px solid var(--border-color);
         }
 
         .flyer-face img {
@@ -104,7 +111,7 @@ export default function Ulotka() {
           object-fit: contain;
         }
 
-.flyer-back {
+        .flyer-back {
           transform: rotateY(180deg);
         }
 
@@ -116,8 +123,8 @@ export default function Ulotka() {
           display: inline-flex;
           align-items: center;
           gap: 10px;
-          background: #D32F2F;
-          color: white;
+          background: var(--color-primary);
+          color: var(--color-white);
           border: none;
           padding: 15px 30px;
           border-radius: 50px;
@@ -125,7 +132,7 @@ export default function Ulotka() {
           font-weight: 700;
           cursor: pointer;
           transition: all 0.2s;
-          box-shadow: 0 4px 15px rgba(211, 47, 47, 0.4);
+          box-shadow: 0 4px 15px color-mix(in srgb, var(--color-primary) 40%, transparent);
         }
 
         .btn-toggle:active {
@@ -135,7 +142,7 @@ export default function Ulotka() {
         .flyer-hint {
           margin-top: 15px;
           font-size: 14px;
-          color: rgba(255,255,255,0.5);
+          color: var(--color-text-light);
           text-transform: uppercase;
           letter-spacing: 1px;
         }
@@ -152,19 +159,20 @@ export default function Ulotka() {
           align-items: center;
           justify-content: center;
           gap: 12px;
-          background: white;
-          color: #1a1a1a;
+          background: var(--surface, var(--bg-color));
+          color: var(--color-text);
           text-decoration: none;
           padding: 15px;
           border-radius: 12px;
           font-weight: 700;
           transition: background 0.2s;
+          border: 1px solid var(--border-color);
         }
 
         .contact-btn.secondary {
-          background: rgba(255,255,255,0.1);
-          color: white;
-          border: 1px solid rgba(255,255,255,0.2);
+          background: var(--color-light);
+          color: var(--color-text);
+          border: 1px solid var(--border-color);
         }
 
         @media (max-width: 480px) {
